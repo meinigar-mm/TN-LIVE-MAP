@@ -20,7 +20,7 @@ export default function TamilNaduLiveMap() {
     useEffect(() => {
         const fetchLive = async () => {
             try {
-                const res = await fetch("http://localhost:3000/constituencies");
+                const res = await fetch("/data/db.json");
                 const data = await res.json();
                 console.log("Live data loaded:", data?.length);
                 setLiveData(Array.isArray(data) ? data : []);
