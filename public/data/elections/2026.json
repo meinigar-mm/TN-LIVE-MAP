@@ -1,0 +1,1924 @@
+{
+  "THIRUVALLUR": [
+    {
+      "constituencyNo": 1,
+      "name": "GUMMIDIPOONDI",
+      "DMK": { "candidate": "TJ. Govindarajan", "alliance": "" },
+      "ADMK": { "candidate": "V. Sudhakar", "alliance": "" },
+      "TVK": { "candidate": "S. Vijayakumar", "alliance": "NONE" },
+      "NTK": { "candidate": "Sridhar", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 2,
+      "name": "PONNERI",
+      "DMK": { "candidate": "Durai Chandrasekar", "alliance": "INC" },
+      "ADMK": { "candidate": "Siruniyam P. Balaraman", "alliance": "" },
+      "TVK": { "candidate": "Dr. M S Ravi", "alliance": "NONE" },
+      "NTK": { "candidate": "Rajathi", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 3,
+      "name": "TIRUTTANI",
+      "DMK": { "candidate": "Krishnamoorthy", "alliance": "DMDK" },
+      "ADMK": { "candidate": "Tiruttani Ko. Ari", "alliance": "" },
+      "TVK": { "candidate": "Dr. Sathyakumar", "alliance": "NONE" },
+      "NTK": { "candidate": "Chandhiran", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 4,
+      "name": "THIRUVALLUR",
+      "DMK": { "candidate": "V.G. Rajendran", "alliance": "" },
+      "ADMK": { "candidate": "BV. Ramana", "alliance": "" },
+      "TVK": { "candidate": "Dr. Arunkumar", "alliance": "NONE" },
+      "NTK": { "candidate": "Senthilkumar", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 5,
+      "name": "POONAMALLEE",
+      "DMK": { "candidate": "A. Krishnasamy", "alliance": "" },
+      "ADMK": { "candidate": "Ezhumalai", "alliance": "AMMK" },
+      "TVK": { "candidate": "R. Prakasam", "alliance": "NONE" },
+      "NTK": { "candidate": "Mehala", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 6,
+      "name": "AVADI",
+      "DMK": { "candidate": "S.M. Nassar", "alliance": "" },
+      "ADMK": { "candidate": "Rajasimha Mahendra", "alliance": "BJP" },
+      "TVK": { "candidate": "R. Rameshkumar", "alliance": "NONE" },
+      "NTK": { "candidate": "Punitha", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 7,
+      "name": "MADURAVOYAL",
+      "DMK": { "candidate": "Kaarampakkam Ganapathy", "alliance": "" },
+      "ADMK": { "candidate": "Benjamin", "alliance": "" },
+      "TVK": { "candidate": "P. Revanth Saran", "alliance": "NONE" },
+      "NTK": { "candidate": "Revathi", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 8,
+      "name": "AMBATTUR",
+      "DMK": { "candidate": "A.P. Poornima", "alliance": "" },
+      "ADMK": { "candidate": "K.N. Sekar", "alliance": "PMK" },
+      "TVK": { "candidate": "G. Balamurugan", "alliance": "NONE" },
+      "NTK": { "candidate": "Aadhithan", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 9,
+      "name": "MADHAVARAM",
+      "DMK": { "candidate": "S. Sudarsanam", "alliance": "" },
+      "ADMK": { "candidate": "Madhavaram V. Moorthy", "alliance": "" },
+      "TVK": { "candidate": "M. L. Vijay Prabhu", "alliance": "NONE" },
+      "NTK": { "candidate": "Kiruthika Ezhumalai", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 10,
+      "name": "THIRUVOTTRIYUR",
+      "DMK": { "candidate": "L. SundarRajan", "alliance": "" },
+      "ADMK": { "candidate": "K. Kuppan", "alliance": "" },
+      "TVK": { "candidate": "Senthilkumar", "alliance": "NONE" },
+      "NTK": { "candidate": "Sathya Baskar", "alliance": "NONE" }
+    }
+  ],
+
+  "CHENNAI": [
+    {
+      "constituencyNo": 11,
+      "name": "RK.NAGAR",
+      "DMK": { "candidate": "J.J. Ebenezzer", "alliance": "" },
+      "ADMK": { "candidate": "R.S. Rajesh", "alliance": "" },
+      "TVK": { "candidate": "Maria Wilson", "alliance": "NONE" },
+      "NTK": { "candidate": "Vennila Thayumanavan", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 12,
+      "name": "PERAMBUR",
+      "DMK": { "candidate": "R.D. Sekar", "alliance": "" },
+      "ADMK": { "candidate": "Thilaga bama", "alliance": "PMK" },
+      "TVK": { "candidate": "C Joseph Vijay", "alliance": "NONE" },
+      "NTK": { "candidate": "Vetrithamizhan", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 13,
+      "name": "KOLATHUR",
+      "DMK": { "candidate": "MK Stalin", "alliance": "" },
+      "ADMK": { "candidate": "Santhana Krishnan", "alliance": "" },
+      "TVK": { "candidate": "VS. Babu", "alliance": "NONE" },
+      "NTK": { "candidate": "Soundrapandiyan ludhar seth", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 14,
+      "name": "VILLIVAKKAM",
+      "DMK": { "candidate": "Karthik Mohan", "alliance": "" },
+      "ADMK": { "candidate": "M.S.R. Vijayakumar", "alliance": "" },
+      "TVK": { "candidate": "Adhav Arjuna", "alliance": "NONE" },
+      "NTK": { "candidate": "Roshini", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 15,
+      "name": "THIRU-VI-KA-NAGAR",
+      "DMK": { "candidate": "K.S. Ravichandran", "alliance": "" },
+      "ADMK": { "candidate": "Porkodi", "alliance": "" },
+      "TVK": { "candidate": "M R Pallavi", "alliance": "NONE" },
+      "NTK": { "candidate": "Jagadish chandar", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 16,
+      "name": "EGMORE",
+      "DMK": { "candidate": "Thamizhan Prasanna", "alliance": "" },
+      "ADMK": { "candidate": "Abishek Rangasamy", "alliance": "" },
+      "TVK": { "candidate": "Rajmohan", "alliance": "NONE" },
+      "NTK": { "candidate": "Saranya", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 17,
+      "name": "ROYAPURAM",
+      "DMK": { "candidate": "Suberkhan", "alliance": "" },
+      "ADMK": { "candidate": "Jayakumar", "alliance": "" },
+      "TVK": { "candidate": "K V Vijayathamu", "alliance": "NONE" },
+      "NTK": { "candidate": "Babu Mailan", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 18,
+      "name": "HARBOUR",
+      "DMK": { "candidate": "P.K. Sekarbabu", "alliance": "" },
+      "ADMK": { "candidate": "Royapuram Mano", "alliance": "" },
+      "TVK": { "candidate": "Sinora Ashok", "alliance": "NONE" },
+      "NTK": { "candidate": "Rufhkhan Sheriff", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 19,
+      "name": "CHEPAUK - THIRUVALLIKENI",
+      "DMK": { "candidate": "Udhayanidhi Stalin", "alliance": "" },
+      "ADMK": { "candidate": "Adhi Rajaram", "alliance": "" },
+      "TVK": { "candidate": "D. Selvam", "alliance": "NONE" },
+      "NTK": { "candidate": "Ayisha Beham", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 20,
+      "name": "THOUSAND LIGHTS",
+      "DMK": { "candidate": "Ezhilan Naaganathan", "alliance": "" },
+      "ADMK": { "candidate": "P. Valarmathi", "alliance": "" },
+      "TVK": { "candidate": "JCD Prbhakar", "alliance": "NONE" },
+      "NTK": { "candidate": "Kalanjiyam", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 21,
+      "name": "ANNANAGAR",
+      "DMK": { "candidate": "Sitrarasu", "alliance": "" },
+      "ADMK": { "candidate": "Gokula Indra", "alliance": "" },
+      "TVK": { "candidate": "V K Ramkumar", "alliance": "NONE" },
+      "NTK": { "candidate": "C.Shankar", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 22,
+      "name": "VIRUGAMBAKKAM",
+      "DMK": { "candidate": "Prabakar raja", "alliance": "" },
+      "ADMK": { "candidate": "Virugai V.N. Ravi", "alliance": "" },
+      "TVK": { "candidate": "Sabarinathan", "alliance": "NONE" },
+      "NTK": { "candidate": "Santhosh", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 23,
+      "name": "SAIDAPET",
+      "DMK": { "candidate": "M. Subramanian", "alliance": "" },
+      "ADMK": { "candidate": "Senthamizhan", "alliance": "AMMK" },
+      "TVK": { "candidate": "M. Arulprakasham", "alliance": "NONE" },
+      "NTK": { "candidate": "Srividhya", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 24,
+      "name": "THIYAGARAYANAGAR",
+      "DMK": { "candidate": "Raja Anbazhagan", "alliance": "" },
+      "ADMK": { "candidate": "P. Sathya", "alliance": "" },
+      "TVK": { "candidate": "Bussy N Anand", "alliance": "NONE" },
+      "NTK": { "candidate": "Anusha Vijayakumar", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 25,
+      "name": "MYLAPORE",
+      "DMK": { "candidate": "T. Velu", "alliance": "" },
+      "ADMK": { "candidate": "Tamilisai Soundarrajan", "alliance": "BJP" },
+      "TVK": { "candidate": "Venkatramanan", "alliance": "NONE" },
+      "NTK": { "candidate": "Arun", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 26,
+      "name": "VELACHERY",
+      "DMK": { "candidate": "JMH Aassan Maulaaana", "alliance": "INC" },
+      "ADMK": { "candidate": "M.K. Ashok", "alliance": "" },
+      "TVK": { "candidate": "R. Kumar", "alliance": "NONE" },
+      "NTK": { "candidate": "Keerthana", "alliance": "NONE" }
+    }
+  ],
+
+  "CHENGALPATTU": [
+    {
+      "constituencyNo": 27,
+      "name": "SHOZHINGANALLUR",
+      "DMK": { "candidate": "Aravind Ramesh", "alliance": "" },
+      "ADMK": { "candidate": "K.P. Kandhan", "alliance": "" },
+      "TVK": { "candidate": "P. Saravanamoorthy", "alliance": "NONE" },
+      "NTK": { "candidate": "Jayalakshmi Raman", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 28,
+      "name": "SRIPERAMBUDUR",
+      "DMK": { "candidate": "Selvaperunthagai", "alliance": "INC" },
+      "ADMK": { "candidate": "K. Palani", "alliance": "" },
+      "TVK": { "candidate": "K . Thennarasu", "alliance": "NONE" },
+      "NTK": { "candidate": "Sindhu", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 29,
+      "name": "PALLAVARAM",
+      "DMK": { "candidate": "Anagai Murugesan", "alliance": "DMDK" },
+      "ADMK": { "candidate": "Venkatesan", "alliance": "IJK" },
+      "TVK": { "candidate": "J. Kamatchi", "alliance": "NONE" },
+      "NTK": { "candidate": "Karthikeyan", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 30,
+      "name": "TAMBARAM",
+      "DMK": { "candidate": "R.S. Krithiga Devi", "alliance": "" },
+      "ADMK": { "candidate": "Chitlapakkam Rajendran", "alliance": "" },
+      "TVK": { "candidate": "Sarathkumar", "alliance": "NONE" },
+      "NTK": { "candidate": "Tamilselvi", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 31,
+      "name": "CHENGALPATTU",
+      "DMK": { "candidate": "M.K.T. Karthik Thandapani", "alliance": "" },
+      "ADMK": { "candidate": "M. Gajendran", "alliance": "" },
+      "TVK": { "candidate": "S. Thiyagarajan", "alliance": "NONE" },
+      "NTK": { "candidate": "Amutha Nambiyar", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 32,
+      "name": "TIRUPORUR",
+      "DMK": { "candidate": "Paneer dass", "alliance": "VCK" },
+      "ADMK": { "candidate": "K. Balu", "alliance": "PMK" },
+      "TVK": { "candidate": "Vijayaraj", "alliance": "NONE" },
+      "NTK": { "candidate": "Ambethrajan", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 33,
+      "name": "CHEYYUR",
+      "DMK": { "candidate": "Sinthanai Selvan", "alliance": "VCK" },
+      "ADMK": { "candidate": "E. Rajasekar", "alliance": "" },
+      "TVK": { "candidate": "K Mohanraja", "alliance": "NONE" },
+      "NTK": { "candidate": "Swathi Lakshmi", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 34,
+      "name": "MADURANTHAKAM",
+      "DMK": { "candidate": "S. Alamu Ponmalar", "alliance": "" },
+      "ADMK": { "candidate": "Maragadham Kumaravel", "alliance": "" },
+      "TVK": { "candidate": "Munithnam", "alliance": "NONE" },
+      "NTK": { "candidate": "Janaki Raman", "alliance": "NONE" }
+    }
+  ],
+
+  "KANCHEEPURAM": [
+    {
+      "constituencyNo": 35,
+      "name": "ALANDUR",
+      "DMK": { "candidate": "Tha.Mo. Anbarasan", "alliance": "" },
+      "ADMK": { "candidate": "S. Saravanan", "alliance": "" },
+      "TVK": { "candidate": "M. Harish", "alliance": "NONE" },
+      "NTK": { "candidate": "Mahalakshmi", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 36,
+      "name": "UTHIRAMERUR",
+      "DMK": { "candidate": "K. Sundar", "alliance": "" },
+      "ADMK": { "candidate": "Maheshkumar", "alliance": "PMK" },
+      "TVK": { "candidate": "R V Ranjithkumar", "alliance": "NONE" },
+      "NTK": { "candidate": "Maram Maasilamani", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 37,
+      "name": "KANCHEEPURAM",
+      "DMK": { "candidate": "Nithya Sugumar", "alliance": "" },
+      "ADMK": { "candidate": "V. Somasundram", "alliance": "" },
+      "TVK": { "candidate": "R. V. Ranjithkumar", "alliance": "NONE" },
+      "NTK": { "candidate": "Vetriselvi", "alliance": "NONE" }
+    }
+  ],
+
+  "RANIPET": [
+    {
+      "constituencyNo": 38,
+      "name": "ARAKKONAM",
+      "DMK": { "candidate": "Ezhil Caroline", "alliance": "VCK" },
+      "ADMK": { "candidate": "Su. Ravi", "alliance": "" },
+      "TVK": { "candidate": "V. Gandhiraj", "alliance": "NONE" },
+      "NTK": { "candidate": "Raj Kumar", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 39,
+      "name": "SHOLINGAR",
+      "DMK": { "candidate": "A. M. Munirathinam", "alliance": "INC" },
+      "ADMK": { "candidate": "Saravanan", "alliance": "PMK" },
+      "TVK": { "candidate": "G. Kapil", "alliance": "NONE" },
+      "NTK": { "candidate": "Ashok Kumar", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 41,
+      "name": "RANIPET",
+      "DMK": { "candidate": "Vinoth Gandhi", "alliance": "" },
+      "ADMK": { "candidate": "Karthikeyan", "alliance": "TMC" },
+      "TVK": { "candidate": "Dhaheera", "alliance": "NONE" },
+      "NTK": { "candidate": "Tharikka Salman", "alliance": "NONE" }
+    }
+  ],
+
+  "VELLORE": [
+    {
+      "constituencyNo": 40,
+      "name": "KATPADI",
+      "DMK": { "candidate": "Durai Murugan", "alliance": "" },
+      "ADMK": { "candidate": "V. Ramu", "alliance": "" },
+      "TVK": { "candidate": "M. Sudhakar", "alliance": "NONE" },
+      "NTK": { "candidate": "Thirukumaran", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 42,
+      "name": "ARCOT",
+      "DMK": { "candidate": "J.L. Easwarappan", "alliance": "" },
+      "ADMK": { "candidate": "S.M. Sugumar", "alliance": "" },
+      "TVK": { "candidate": "G. Vijaymohan", "alliance": "NONE" },
+      "NTK": { "candidate": "Archana", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 43,
+      "name": "VELLORE",
+      "DMK": { "candidate": "P. Karthikeyan", "alliance": "" },
+      "ADMK": { "candidate": "S.R.K. Appu", "alliance": "" },
+      "TVK": { "candidate": "M.M. Vinoth Kannan", "alliance": "NONE" },
+      "NTK": { "candidate": "Soniya", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 44,
+      "name": "ANAIKATTU",
+      "DMK": { "candidate": "A.B. Nandhakumar", "alliance": "" },
+      "ADMK": { "candidate": "Tha. Velazhagan", "alliance": "" },
+      "TVK": { "candidate": "R. Velmurugan", "alliance": "NONE" },
+      "NTK": { "candidate": "Ravi Kumar", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 45,
+      "name": "KILVAITHINANKUPPAM",
+      "DMK": { "candidate": "Rajeshwari Mohangandhi", "alliance": "" },
+      "ADMK": { "candidate": "Jegan Moorthy", "alliance": "PBK" },
+      "TVK": { "candidate": "E. Thendral Kumar", "alliance": "NONE" },
+      "NTK": { "candidate": "Kalaiyendri", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 46,
+      "name": "GUDIYATTAM",
+      "DMK": { "candidate": "Prathap", "alliance": "DMDK" },
+      "ADMK": { "candidate": "Faridha purushothaman", "alliance": "" },
+      "TVK": { "candidate": "K. Sindhu", "alliance": "NONE" },
+      "NTK": { "candidate": "Imalan", "alliance": "NONE" }
+    }
+  ],
+
+  "TIRUPATTUR": [
+    {
+      "constituencyNo": 47,
+      "name": "VANIYAMBADI",
+      "DMK": { "candidate": "Seid Farooq", "alliance": "IUML" },
+      "ADMK": { "candidate": "G. Senthil kumar", "alliance": "" },
+      "TVK": { "candidate": "S. Sayed", "alliance": "NONE" },
+      "NTK": { "candidate": "Murugesan", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 48,
+      "name": "AMBUR",
+      "DMK": { "candidate": "Vilvanathan", "alliance": "" },
+      "ADMK": { "candidate": "R. Venkatesan", "alliance": "" },
+      "TVK": { "candidate": "P. Imdhiyas", "alliance": "NONE" },
+      "NTK": { "candidate": "Afsia Thoufic Bikrid", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 49,
+      "name": "JOLARPET",
+      "DMK": { "candidate": "Kavitha Thandapani", "alliance": "" },
+      "ADMK": { "candidate": "K.C. Veeramani", "alliance": "" },
+      "TVK": { "candidate": "C. Munisamy", "alliance": "NONE" },
+      "NTK": { "candidate": "Sasi Rekha", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 50,
+      "name": "TIRUPATTUR",
+      "DMK": { "candidate": "A. Nallathambi", "alliance": "" },
+      "ADMK": { "candidate": "Gnanasekaran", "alliance": "" },
+      "TVK": { "candidate": "Dr. M. Thiruppathi", "alliance": "NONE" },
+      "NTK": { "candidate": "Aarumugam", "alliance": "NONE" }
+    }
+  ],
+
+  "KRISHNAGIRI": [
+    {
+      "constituencyNo": 51,
+      "name": "UTHANGARAI",
+      "DMK": { "candidate": "Kuppusamy", "alliance": "INC" },
+      "ADMK": { "candidate": "T.M. Tamizhselvam", "alliance": "" },
+      "TVK": { "candidate": "B. Kumaravel", "alliance": "NONE" },
+      "NTK": { "candidate": "Megala", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 52,
+      "name": "BARGUR",
+      "DMK": { "candidate": "T. Mathiyazhagan", "alliance": "" },
+      "ADMK": { "candidate": "E.C. Govindarasan", "alliance": "" },
+      "TVK": { "candidate": "E. Muralidharan", "alliance": "NONE" },
+      "NTK": { "candidate": "Kavin", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 53,
+      "name": "KRISHNAGIRI",
+      "DMK": { "candidate": "Chella Kumar", "alliance": "INC" },
+      "ADMK": { "candidate": "K. Ashokkumar", "alliance": "" },
+      "TVK": { "candidate": "Muhundh R. Pandian", "alliance": "NONE" },
+      "NTK": { "candidate": "Suganthi Parthiban", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 54,
+      "name": "VEPPANAHALLI",
+      "DMK": { "candidate": "P.S. Srinivasan", "alliance": "" },
+      "ADMK": { "candidate": "K.P. Munusamy", "alliance": "" },
+      "TVK": { "candidate": "Sambangi", "alliance": "NONE" },
+      "NTK": { "candidate": "Nagaraj", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 55,
+      "name": "HOSUR",
+      "DMK": { "candidate": "S.A. Sathya", "alliance": "" },
+      "ADMK": { "candidate": "P. Balakrishna Reddy", "alliance": "" },
+      "TVK": { "candidate": "M. Ambarish", "alliance": "NONE" },
+      "NTK": { "candidate": "Stalin", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 56,
+      "name": "THALLI",
+      "DMK": { "candidate": "Ramachandran", "alliance": "CPI" },
+      "ADMK": { "candidate": "Nagesh Kumar", "alliance": "BJP" },
+      "TVK": { "candidate": "G. Suresh", "alliance": "NONE" },
+      "NTK": { "candidate": "Narasimman", "alliance": "NONE" }
+    }
+  ],
+
+  "DHARMAPURI": [
+    {
+      "constituencyNo": 57,
+      "name": "PALACODE",
+      "DMK": { "candidate": "TNV. Senthilkumar", "alliance": "" },
+      "ADMK": { "candidate": "K.P. Anbazhagan", "alliance": "" },
+      "TVK": { "candidate": "R. Gopi", "alliance": "NONE" },
+      "NTK": { "candidate": "Boopathy", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 58,
+      "name": "PENNAGARAM",
+      "DMK": { "candidate": "Tamil Kumaran", "alliance": "INC" },
+      "ADMK": { "candidate": "Padi V. Selvam", "alliance": "PMK" },
+      "TVK": { "candidate": "Kajendran", "alliance": "NONE" },
+      "NTK": { "candidate": "Palaniyammal", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 59,
+      "name": "DHARMAPURI",
+      "DMK": { "candidate": "Ilangovan", "alliance": "DMDK" },
+      "ADMK": { "candidate": "Sowmiya Anbumani", "alliance": "PMK" },
+      "TVK": { "candidate": "M. Sivan", "alliance": "NONE" },
+      "NTK": { "candidate": "Santha Lakshmi", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 60,
+      "name": "PAPPIREDDIPATTI",
+      "DMK": { "candidate": "Palaniyappan", "alliance": "" },
+      "ADMK": { "candidate": "Maragadham Vetrivel", "alliance": "" },
+      "TVK": { "candidate": "S. Thilavathi", "alliance": "NONE" },
+      "NTK": { "candidate": "Archana Tamil Aruvi", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 61,
+      "name": "HARUR",
+      "DMK": { "candidate": "Shanmugam", "alliance": "" },
+      "ADMK": { "candidate": "V. Sambathkumar", "alliance": "" },
+      "TVK": { "candidate": "K. Rakesh", "alliance": "NONE" },
+      "NTK": { "candidate": "Anitha Annadurai", "alliance": "NONE" }
+    }
+  ],
+
+  "TIRUVANNAMALAI": [
+    {
+      "constituencyNo": 62,
+      "name": "CHENGAM",
+      "DMK": { "candidate": "Giri", "alliance": "" },
+      "ADMK": { "candidate": "T.S. Velu", "alliance": "" },
+      "TVK": { "candidate": "K Bharathidhasan", "alliance": "NONE" },
+      "NTK": { "candidate": "J Shobha", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 63,
+      "name": "TIRUVANNAMALAI",
+      "DMK": { "candidate": "A.V. Velu", "alliance": "" },
+      "ADMK": { "candidate": "C. Elumalai", "alliance": "BJP" },
+      "TVK": { "candidate": "Arul Arumugam", "alliance": "NONE" },
+      "NTK": { "candidate": "Vignesh", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 64,
+      "name": "KILPENNATHUR",
+      "DMK": { "candidate": "K. Pichandi", "alliance": "" },
+      "ADMK": { "candidate": "S. Ramachandran", "alliance": "" },
+      "TVK": { "candidate": "D Raja", "alliance": "NONE" },
+      "NTK": { "candidate": "V. Loganathan", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 65,
+      "name": "KALASAPAKKAM",
+      "DMK": { "candidate": "Saravanan", "alliance": "" },
+      "ADMK": { "candidate": "Agri S.S. Krishnamoorthy", "alliance": "" },
+      "TVK": { "candidate": "C. Elumalai", "alliance": "NONE" },
+      "NTK": { "candidate": "Seetha", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 66,
+      "name": "POLUR",
+      "DMK": { "candidate": "Saravanan", "alliance": "DMDK" },
+      "ADMK": { "candidate": "C.R. Baskaran", "alliance": "PMK" },
+      "TVK": { "candidate": "R. Abishek", "alliance": "NONE" },
+      "NTK": { "candidate": "Umadevi Prakash", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 67,
+      "name": "ARANI",
+      "DMK": { "candidate": "Mahalakshmi Govardhanan", "alliance": "" },
+      "ADMK": { "candidate": "L. Jayasudha", "alliance": "" },
+      "TVK": { "candidate": "A. Venkatesan Kumar", "alliance": "NONE" },
+      "NTK": { "candidate": "Thavamani Ramesh", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 68,
+      "name": "CHEYYAR",
+      "DMK": { "candidate": "O. Jothi", "alliance": "" },
+      "ADMK": { "candidate": "Mukkur N. Subramanian", "alliance": "" },
+      "TVK": { "candidate": "V.C.K. Mohan", "alliance": "NONE" },
+      "NTK": { "candidate": "Tamil Selvan", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 69,
+      "name": "VANDAVASI",
+      "DMK": { "candidate": "S. Ashokkumar", "alliance": "" },
+      "ADMK": { "candidate": "P. Rani", "alliance": "" },
+      "TVK": { "candidate": "Udhayakumar", "alliance": "NONE" },
+      "NTK": { "candidate": "Ganesh", "alliance": "NONE" }
+    }
+  ],
+
+  "VILLUPURAM": [
+    {
+      "constituencyNo": 70,
+      "name": "GINGEE",
+      "DMK": { "candidate": "K.S. Masthan", "alliance": "" },
+      "ADMK": { "candidate": "GaneshKumar", "alliance": "PMK" },
+      "TVK": { "candidate": "V. Chandrasekaran", "alliance": "NONE" },
+      "NTK": { "candidate": "Krishnan", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 71,
+      "name": "MAILAM",
+      "DMK": { "candidate": "Venkatesan", "alliance": "DMDK" },
+      "ADMK": { "candidate": "C V. Shanmugam", "alliance": "" },
+      "TVK": { "candidate": "A. Vijay Niranjan", "alliance": "NONE" },
+      "NTK": { "candidate": "Vijay Vikram", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 72,
+      "name": "TINDIVANAM",
+      "DMK": { "candidate": "Vanniarasu", "alliance": "VCK" },
+      "ADMK": { "candidate": "P. Arjunan", "alliance": "" },
+      "TVK": { "candidate": "S. Sakthivel", "alliance": "NONE" },
+      "NTK": { "candidate": "Petchimuthu", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 73,
+      "name": "VANUR",
+      "DMK": { "candidate": "Gautham Dravidamani", "alliance": "" },
+      "ADMK": { "candidate": "P. Murugan", "alliance": "" },
+      "TVK": { "candidate": "G.P. Suresh", "alliance": "NONE" },
+      "NTK": { "candidate": "Karikazhan", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 74,
+      "name": "VILLUPURAM",
+      "DMK": { "candidate": "R. Lakshmanan", "alliance": "" },
+      "ADMK": { "candidate": "K. Vijaya", "alliance": "" },
+      "TVK": { "candidate": "N. Mohanraj", "alliance": "NONE" },
+      "NTK": { "candidate": "Abhinaya Ponnivalavan", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 75,
+      "name": "VIKRAVANDI",
+      "DMK": { "candidate": "Anniyur Sivashanmugam", "alliance": "" },
+      "ADMK": { "candidate": "C. Sivakumar", "alliance": "PMK" },
+      "TVK": { "candidate": "A. Vijay Vadivel", "alliance": "NONE" },
+      "NTK": { "candidate": "Suba Chandrasekaran", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 76,
+      "name": "TIRUKKOYILUR",
+      "DMK": { "candidate": "Gautham Sigamani", "alliance": "" },
+      "ADMK": { "candidate": "S. Palanisamy", "alliance": "" },
+      "TVK": { "candidate": "Barani Balaji", "alliance": "NONE" },
+      "NTK": { "candidate": "Hemarajan", "alliance": "NONE" }
+    }
+  ],
+
+  "KALLAKURICHI": [
+    {
+      "constituencyNo": 77,
+      "name": "ULUNDURPETTAI",
+      "DMK": { "candidate": "G.R. Vasanthavel", "alliance": "" },
+      "ADMK": { "candidate": "Kumaraguru", "alliance": "" },
+      "TVK": { "candidate": "M. Sudhakar", "alliance": "NONE" },
+      "NTK": { "candidate": "Logeshwari", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 78,
+      "name": "RISHIVANDHIYAM",
+      "DMK": { "candidate": "Vasantham Karthikeyan", "alliance": "" },
+      "ADMK": { "candidate": "A.P. Chezhiyan", "alliance": "PMK" },
+      "TVK": { "candidate": "G. Ashokkumar", "alliance": "NONE" },
+      "NTK": { "candidate": "Radhika", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 79,
+      "name": "SANKARAPURAM",
+      "DMK": { "candidate": "Udhayasuriyan", "alliance": "" },
+      "ADMK": { "candidate": "R. Rajesh", "alliance": "" },
+      "TVK": { "candidate": "A. Jagadeesan", "alliance": "NONE" },
+      "NTK": { "candidate": "Ramesh", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 80,
+      "name": "KALLAKURICHI",
+      "DMK": { "candidate": "Malathi", "alliance": "VCK" },
+      "ADMK": { "candidate": "S. Rajivgandhi", "alliance": "" },
+      "TVK": { "candidate": "C. Arul Vignesh", "alliance": "NONE" },
+      "NTK": { "candidate": "Nagammal", "alliance": "NONE" }
+    }
+  ],
+
+  "SALEM": [
+    {
+      "constituencyNo": 81,
+      "name": "GANGAVALLI",
+      "DMK": { "candidate": "Chinnadurai", "alliance": "" },
+      "ADMK": { "candidate": "A. Nallathambi", "alliance": "" },
+      "TVK": { "candidate": "V. Sujatha", "alliance": "NONE" },
+      "NTK": { "candidate": "Abirami Neduncheralathan", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 82,
+      "name": "ATTUR",
+      "DMK": { "candidate": "Arthanari", "alliance": "" },
+      "ADMK": { "candidate": "A.P. Jayashankaran", "alliance": "" },
+      "TVK": { "candidate": "R. Selvabharathi", "alliance": "NONE" },
+      "NTK": { "candidate": "Monisha Chinnadurai", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 83,
+      "name": "YERCAUD",
+      "DMK": { "candidate": "Revathi Madheswaran", "alliance": "" },
+      "ADMK": { "candidate": "P. Usharani", "alliance": "" },
+      "TVK": { "candidate": "J. Lakshmi", "alliance": "NONE" },
+      "NTK": { "candidate": "Palanisamy", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 84,
+      "name": "OMALUR",
+      "DMK": { "candidate": "Ilangovan", "alliance": "DMDK" },
+      "ADMK": { "candidate": "R. Mani", "alliance": "" },
+      "TVK": { "candidate": "R. V. Adhiyaman", "alliance": "NONE" },
+      "NTK": { "candidate": "Siva Sakthi", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 85,
+      "name": "METTUR",
+      "DMK": { "candidate": "Mithun Chakravarthy", "alliance": "" },
+      "ADMK": { "candidate": "G. Venkatachalam", "alliance": "" },
+      "TVK": { "candidate": "K. Selvam", "alliance": "NONE" },
+      "NTK": { "candidate": "Vidhya Veerapan", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 86,
+      "name": "EDAPPADI",
+      "DMK": { "candidate": "Kasi", "alliance": "" },
+      "ADMK": { "candidate": "Edappadi Palanisamy", "alliance": "" },
+      "TVK": { "candidate": "M. Arunkumar", "alliance": "NONE" },
+      "NTK": { "candidate": "Priyadarshini", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 87,
+      "name": "SANKAGIRI",
+      "DMK": { "candidate": "M. Manikandan", "alliance": "" },
+      "ADMK": { "candidate": "S. Vetrivel", "alliance": "" },
+      "TVK": { "candidate": "Senthilkumar", "alliance": "NONE" },
+      "NTK": { "candidate": "Nithya Arul", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 88,
+      "name": "SALEM WEST",
+      "DMK": { "candidate": "Mohan raj", "alliance": "DMDK" },
+      "ADMK": { "candidate": "M. Karthi", "alliance": "PMK" },
+      "TVK": { "candidate": "S. Lakshmanan", "alliance": "NONE" },
+      "NTK": { "candidate": "Suresh Kumar", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 89,
+      "name": "SALEM NORTH",
+      "DMK": { "candidate": "Rajendiran", "alliance": "" },
+      "ADMK": { "candidate": "S. Sadhasivam", "alliance": "PMK" },
+      "TVK": { "candidate": "K. Sivakumar", "alliance": "NONE" },
+      "NTK": { "candidate": "Gunaseelan", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 90,
+      "name": "SALEM SOUTH",
+      "DMK": { "candidate": "M. Loganadhan", "alliance": "" },
+      "ADMK": { "candidate": "J. Vinoth", "alliance": "" },
+      "TVK": { "candidate": "A. Vijay Tamilan Parthiban", "alliance": "NONE" },
+      "NTK": { "candidate": "Sophiya", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 91,
+      "name": "VEERAPANDI",
+      "DMK": { "candidate": "Ak. Tharun", "alliance": "" },
+      "ADMK": { "candidate": "Sri Balaji Kumar", "alliance": "" },
+      "TVK": { "candidate": "M.S. Palanivel", "alliance": "NONE" },
+      "NTK": { "candidate": "Rajesh Kumar", "alliance": "NONE" }
+    }
+  ],
+
+  "NAMAKKAL": [
+    {
+      "constituencyNo": 92,
+      "name": "RASIPURAM",
+      "DMK": { "candidate": "M. Mathivendhan", "alliance": "" },
+      "ADMK": { "candidate": "S.D Rasipuram", "alliance": "BJP" },
+      "TVK": { "candidate": "Lokesh Dhanapal", "alliance": "NONE" },
+      "NTK": { "candidate": "Sasikala", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 93,
+      "name": "SENTHAMANGALAM",
+      "DMK": { "candidate": "P. Poomalar", "alliance": "" },
+      "ADMK": { "candidate": "C. Chandrasekaran", "alliance": "" },
+      "TVK": { "candidate": "P. Chandrasekar", "alliance": "NONE" },
+      "NTK": { "candidate": "Ponnumani", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 94,
+      "name": "NAMAKKAL",
+      "DMK": { "candidate": "P. Rani", "alliance": "" },
+      "ADMK": { "candidate": "Sridevi P.S. Mohan", "alliance": "" },
+      "TVK": { "candidate": "T.S. Dileep", "alliance": "NONE" },
+      "NTK": { "candidate": "Praveen", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 95,
+      "name": "PARAMATHI-VELUR",
+      "DMK": { "candidate": "K.S. Murthy", "alliance": "" },
+      "ADMK": { "candidate": "S. Sekar", "alliance": "" },
+      "TVK": { "candidate": "A. Nandhakumar", "alliance": "NONE" },
+      "NTK": { "candidate": "Aravindh", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 96,
+      "name": "TIRUCHENGODU",
+      "DMK": { "candidate": "ER. Easwaran", "alliance": "KNMDK" },
+      "ADMK": { "candidate": "R. Chandrasekar", "alliance": "" },
+      "TVK": { "candidate": "K.G. Arunraj", "alliance": "NONE" },
+      "NTK": { "candidate": "Revathi", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 97,
+      "name": "KUMARAPALAYAM",
+      "DMK": { "candidate": "S. Balu", "alliance": "" },
+      "ADMK": { "candidate": "P. Thangamani", "alliance": "" },
+      "TVK": { "candidate": "C. Vijayalakshmi", "alliance": "NONE" },
+      "NTK": { "candidate": "Yuvarani", "alliance": "NONE" }
+    }
+  ],
+
+  "ERODE": [
+    {
+      "constituencyNo": 98,
+      "name": "ERODE EAST",
+      "DMK": { "candidate": "Gopinath planiyappan", "alliance": "INC" },
+      "ADMK": { "candidate": "R. Manoharan", "alliance": "" },
+      "TVK": { "candidate": "M. Vijay Balaji", "alliance": "NONE" },
+      "NTK": { "candidate": "Thandava Moorthy", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 99,
+      "name": "ERODE WEST",
+      "DMK": { "candidate": "Muthusamy", "alliance": "" },
+      "ADMK": { "candidate": "M. Yuvaraj", "alliance": "TMC" },
+      "TVK": { "candidate": "K.K. Anand Mohan", "alliance": "NONE" },
+      "NTK": { "candidate": "Vijay", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 100,
+      "name": "MODAKKURICHI",
+      "DMK": { "candidate": "Senthilnathan", "alliance": "MDMK" },
+      "ADMK": { "candidate": "Kirthika Shivakumar", "alliance": "BJP" },
+      "TVK": { "candidate": "D. Shanmugam", "alliance": "NONE" },
+      "NTK": { "candidate": "Arun", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 103,
+      "name": "PERUNDURAI",
+      "DMK": { "candidate": "Thoppu N.T. Venkatachalam", "alliance": "" },
+      "ADMK": { "candidate": "S. Jayakumar", "alliance": "" },
+      "TVK": { "candidate": "V.T. Arunachalam", "alliance": "NONE" },
+      "NTK": { "candidate": "Logu", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 104,
+      "name": "BHAVANI",
+      "DMK": { "candidate": "K.A. Sekar", "alliance": "" },
+      "ADMK": { "candidate": "K.C. Karuppanan", "alliance": "" },
+      "TVK": { "candidate": "M.P. Balakrishnan", "alliance": "NONE" },
+      "NTK": { "candidate": "Menaka Devi", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 105,
+      "name": "ANTHIYUR",
+      "DMK": { "candidate": "M. Sivabalan", "alliance": "" },
+      "ADMK": { "candidate": "P. Haribaskar", "alliance": "" },
+      "TVK": { "candidate": "M. Vijay Venkatesh", "alliance": "NONE" },
+      "NTK": { "candidate": "Anandhi", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 106,
+      "name": "GOBICHETTIPALAYAM",
+      "DMK": { "candidate": "N. Nallasivam", "alliance": "" },
+      "ADMK": { "candidate": "V.B. Prabhu", "alliance": "" },
+      "TVK": { "candidate": "K.A. Sengottaiyan", "alliance": "NONE" },
+      "NTK": { "candidate": "Seetha Lakshmi", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 107,
+      "name": "BHAVANISAGAR",
+      "DMK": { "candidate": "PL. Sundaram", "alliance": "CPI" },
+      "ADMK": { "candidate": "A. Pannari", "alliance": "" },
+      "TVK": { "candidate": "V.P. Tamil Selvi", "alliance": "NONE" },
+      "NTK": { "candidate": "Soundarya", "alliance": "NONE" }
+    }
+  ],
+
+  "NILGRIS": [
+    {
+      "constituencyNo": 108,
+      "name": "UDHAGAMANDALAM",
+      "DMK": { "candidate": "B. Ramachandran", "alliance": "INC" },
+      "ADMK": { "candidate": "Bhojarajan", "alliance": "BJP" },
+      "TVK": { "candidate": "R. Ibrahim", "alliance": "NONE" },
+      "NTK": { "candidate": "Ragupathy Deepan", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 109,
+      "name": "GUDALUR",
+      "DMK": { "candidate": "M. Dravidamani", "alliance": "" },
+      "ADMK": { "candidate": "Pon. Jeyaseelan", "alliance": "" },
+      "TVK": { "candidate": "A. Deepak Sai Kishore", "alliance": "NONE" },
+      "NTK": { "candidate": "Karthik Ramakrishnan", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 110,
+      "name": "COONOOR",
+      "DMK": { "candidate": "K.M. Raju", "alliance": "" },
+      "ADMK": { "candidate": "A. Ramu", "alliance": "" },
+      "TVK": { "candidate": "C. Thangaraj", "alliance": "NONE" },
+      "NTK": { "candidate": "Dheenu", "alliance": "NONE" }
+    }
+  ],
+
+  "COIMBATORE": [
+    {
+      "constituencyNo": 111,
+      "name": "METTUPALAYAM",
+      "DMK": { "candidate": "Kavitha Kalyanasundram", "alliance": "" },
+      "ADMK": { "candidate": "O.K. Chinnaraj", "alliance": "" },
+      "TVK": { "candidate": "N. Sunil Anand", "alliance": "NONE" },
+      "NTK": { "candidate": "Gopalakrishnan", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 116,
+      "name": "SULUR",
+      "DMK": { "candidate": "Thalapathy Murugesan", "alliance": "" },
+      "ADMK": { "candidate": "V.P. Kandasamy", "alliance": "" },
+      "TVK": { "candidate": "N.M. Sukumar", "alliance": "NONE" },
+      "NTK": { "candidate": "Rajasekhar", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 117,
+      "name": "KAVUNDAMPALAYAM",
+      "DMK": { "candidate": "Surya Prakash", "alliance": "" },
+      "ADMK": { "candidate": "P.R.G. Arunkumar", "alliance": "" },
+      "TVK": { "candidate": "R.T. Kanimozhi", "alliance": "NONE" },
+      "NTK": { "candidate": "Kalamani", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 118,
+      "name": "COIMBATORE NORTH",
+      "DMK": { "candidate": "Senthamizhselvan", "alliance": "" },
+      "ADMK": { "candidate": "Vanathi Srinivasan", "alliance": "BJP" },
+      "TVK": { "candidate": "V. Sampathkumar", "alliance": "NONE" },
+      "NTK": { "candidate": "Narmatha", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 119,
+      "name": "THONDAMUTHUR",
+      "DMK": { "candidate": "N.R. Karthikeyan", "alliance": "" },
+      "ADMK": { "candidate": "SP. Velumani", "alliance": "" },
+      "TVK": { "candidate": "R. Sathish Raju", "alliance": "NONE" },
+      "NTK": { "candidate": "Rajabunisha", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 120,
+      "name": "COIMBATORE SOUTH",
+      "DMK": { "candidate": "V. Senthilbalaji", "alliance": "" },
+      "ADMK": { "candidate": "Amman K. Arjunan", "alliance": "" },
+      "TVK": { "candidate": "V. Senthil Kumar", "alliance": "NONE" },
+      "NTK": { "candidate": "Perarivalan", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 121,
+      "name": "SINGANALLUR",
+      "DMK": { "candidate": "Shrinithi Naidu", "alliance": "INC" },
+      "ADMK": { "candidate": "K.R. Jayaram", "alliance": "" },
+      "TVK": { "candidate": "K.S. Giriprashath", "alliance": "NONE" },
+      "NTK": { "candidate": "Nehruji", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 122,
+      "name": "KINATHUKADAVU",
+      "DMK": { "candidate": "K.V.K.S. Sabari", "alliance": "" },
+      "ADMK": { "candidate": "S. Damodharan", "alliance": "" },
+      "TVK": { "candidate": "K. Vignesh", "alliance": "NONE" },
+      "NTK": { "candidate": "Banupriya Senthil Kumar", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 123,
+      "name": "POLLACHI",
+      "DMK": { "candidate": "K. Nithyanandham", "alliance": "KNMDK" },
+      "ADMK": { "candidate": "Pollachi V. Jayaraman", "alliance": "" },
+      "TVK": { "candidate": "G. Ramanathan", "alliance": "NONE" },
+      "NTK": { "candidate": "Senthil", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 124,
+      "name": "VALPARAI",
+      "DMK": { "candidate": "A. Sudhakar", "alliance": "" },
+      "ADMK": { "candidate": "D. Latchuman Singh", "alliance": "" },
+      "TVK": { "candidate": "Dr. Sreedharan", "alliance": "NONE" },
+      "NTK": { "candidate": "Uma Devi", "alliance": "NONE" }
+    }
+  ],
+
+  "DINDIGUL": [
+    {
+      "constituencyNo": 127,
+      "name": "PALANI",
+      "DMK": { "candidate": "N. Pandi", "alliance": "CPIM" },
+      "ADMK": { "candidate": "K. Ravi Manoharan", "alliance": "" },
+      "TVK": { "candidate": "Dr. M. Praveenkumar", "alliance": "NONE" },
+      "NTK": { "candidate": "Murugeshwari", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 128,
+      "name": "ODDANCHATRAM",
+      "DMK": { "candidate": "Ara. Chakkarapani", "alliance": "" },
+      "ADMK": { "candidate": "Vidiyal Sekar", "alliance": "TMC" },
+      "TVK": { "candidate": "S. Mohan", "alliance": "NONE" },
+      "NTK": { "candidate": "Ragupathi", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 129,
+      "name": "ATHOOR",
+      "DMK": { "candidate": "E. Periyasamy", "alliance": "" },
+      "ADMK": { "candidate": "A. Viswanathan", "alliance": "" },
+      "TVK": { "candidate": "N. Kalaiselvi", "alliance": "NONE" },
+      "NTK": { "candidate": "Simon Justin", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 130,
+      "name": "NILAKOTTAI",
+      "DMK": { "candidate": "Nagajothi", "alliance": "" },
+      "ADMK": { "candidate": "S. Thenmozhi", "alliance": "" },
+      "TVK": { "candidate": "R. Ayyanar", "alliance": "NONE" },
+      "NTK": { "candidate": "Kailai Rajan", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 131,
+      "name": "NATHAM",
+      "DMK": { "candidate": "M. A. Andi Ambalam", "alliance": "" },
+      "ADMK": { "candidate": "Natham Viswanathan", "alliance": "" },
+      "TVK": { "candidate": "L. L. Ramesh", "alliance": "NONE" },
+      "NTK": { "candidate": "Alagammal", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 132,
+      "name": "DINDIGUL",
+      "DMK": { "candidate": "I.P. Senthilkumar", "alliance": "" },
+      "ADMK": { "candidate": "C. Seenivasan", "alliance": "" },
+      "TVK": { "candidate": "Nazeer Raja", "alliance": "NONE" },
+      "NTK": { "candidate": "Mutharasi", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 133,
+      "name": "VEDASANDUR",
+      "DMK": { "candidate": "D. Saminathan", "alliance": "" },
+      "ADMK": { "candidate": "V.P.B. Paramasivam", "alliance": "" },
+      "TVK": { "candidate": "Dr N. Nagajothi", "alliance": "NONE" },
+      "NTK": { "candidate": "Hussain", "alliance": "NONE" }
+    }
+  ],
+
+  "KARUR": [
+    {
+      "constituencyNo": 134,
+      "name": "ARAVAKURICHI",
+      "DMK": { "candidate": "Monjanur R. Elango", "alliance": "" },
+      "ADMK": { "candidate": "K. Selvakumar", "alliance": "" },
+      "TVK": { "candidate": "Karthikeyan", "alliance": "NONE" },
+      "NTK": { "candidate": "Narain", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 135,
+      "name": "KARUR",
+      "DMK": { "candidate": "Aasi M. Thiyagarajan", "alliance": "" },
+      "ADMK": { "candidate": "M.R. Vijayabaskar", "alliance": "" },
+      "TVK": { "candidate": "V.P. Mathiyalagan", "alliance": "NONE" },
+      "NTK": { "candidate": "Karuppaiah", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 136,
+      "name": "KRISHNARAYAPURAM",
+      "DMK": { "candidate": "C.K. Raja", "alliance": "" },
+      "ADMK": { "candidate": "S. Divya", "alliance": "" },
+      "TVK": { "candidate": "S. Madhan", "alliance": "NONE" },
+      "NTK": { "candidate": "Sathya", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 137,
+      "name": "KULITHALAI",
+      "DMK": { "candidate": "Sooriyanur A. Chandran", "alliance": "" },
+      "ADMK": { "candidate": "S. Karunakaran", "alliance": "" },
+      "TVK": { "candidate": "G. Balasubramani", "alliance": "NONE" },
+      "NTK": { "candidate": "Nanmaran", "alliance": "NONE" }
+    }
+  ],
+
+  "TIRUCHIRAPALLI": [
+    {
+      "constituencyNo": 138,
+      "name": "MANAPPARAI",
+      "DMK": { "candidate": "Abdul Samad", "alliance": "MMK" },
+      "ADMK": { "candidate": "P.L. Vijayakumar", "alliance": "" },
+      "TVK": { "candidate": "R. Kathiravan", "alliance": "NONE" },
+      "NTK": { "candidate": "Arunagiri", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 139,
+      "name": "SRIRANGAM",
+      "DMK": { "candidate": "S. Durairaj", "alliance": "" },
+      "ADMK": { "candidate": "R. Manoharan", "alliance": "" },
+      "TVK": { "candidate": "S. Ramesh", "alliance": "NONE" },
+      "NTK": { "candidate": "Dharmaraj", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 140,
+      "name": "TIRUCHIRAPALLI WEST",
+      "DMK": { "candidate": "K.N. Nehru", "alliance": "" },
+      "ADMK": { "candidate": "Thottiyam Rajasekaran", "alliance": "AMMK" },
+      "TVK": { "candidate": "G. Ramamoorthy", "alliance": "NONE" },
+      "NTK": { "candidate": "Bhuvaneshwari", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 141,
+      "name": "TIRUCHIRAPALLI EAST",
+      "DMK": { "candidate": "Inigo Iruthayaraj", "alliance": "" },
+      "ADMK": { "candidate": "K. Rajasekaran", "alliance": "" },
+      "TVK": { "candidate": "C Joseph Vijay", "alliance": "NONE" },
+      "NTK": { "candidate": "Krishnasamy", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 142,
+      "name": "TIRUVERUMBUR",
+      "DMK": { "candidate": "Anbil Mahesh Poyyamozhi", "alliance": "" },
+      "ADMK": { "candidate": "P. Kumar", "alliance": "" },
+      "TVK": { "candidate": "Navalpattu S. Viji", "alliance": "NONE" },
+      "NTK": { "candidate": "Jallikattu Rajesh", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 143,
+      "name": "LALGUDI",
+      "DMK": { "candidate": "Paarivallal", "alliance": "" },
+      "ADMK": { "candidate": "M. Leema Rose", "alliance": "" },
+      "TVK": { "candidate": "K. P. Krishnan", "alliance": "NONE" },
+      "NTK": { "candidate": "Madhan", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 144,
+      "name": "MANACHANALLUR",
+      "DMK": { "candidate": "C. Kathiravan", "alliance": "" },
+      "ADMK": { "candidate": "Bharathan", "alliance": "" },
+      "TVK": { "candidate": "V. Saravanan", "alliance": "NONE" },
+      "NTK": { "candidate": "Thenmozhi", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 145,
+      "name": "MUSIRI",
+      "DMK": { "candidate": "N.S. Karunai Raja", "alliance": "" },
+      "ADMK": { "candidate": "N. Yoganathan", "alliance": "" },
+      "TVK": { "candidate": "N. Vignesh", "alliance": "NONE" },
+      "NTK": { "candidate": "Bakya Lakshmi", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 146,
+      "name": "THURAIYUR",
+      "DMK": { "candidate": "Vichu Lenin Prasath", "alliance": "INC" },
+      "ADMK": { "candidate": "Saroja", "alliance": "" },
+      "TVK": { "candidate": "K. Sivakumar", "alliance": "NONE" },
+      "NTK": { "candidate": "Gowsalya Suresh", "alliance": "NONE" }
+    }
+  ],
+
+  "PERAMBALUR": [
+    {
+      "constituencyNo": 147,
+      "name": "PERAMBALUR",
+      "DMK": { "candidate": "S.T. Jayalakshmi", "alliance": "" },
+      "ADMK": { "candidate": "Ilambai Thamizhselvan", "alliance": "" },
+      "TVK": { "candidate": "K. Sivakumar", "alliance": "NONE" },
+      "NTK": { "candidate": "Johnsy Rani", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 148,
+      "name": "KUNNAM",
+      "DMK": { "candidate": "Sivashankar", "alliance": "" },
+      "ADMK": { "candidate": "Saranya Anbazhagan", "alliance": "IJK" },
+      "TVK": { "candidate": "M. Revathi", "alliance": "NONE" },
+      "NTK": { "candidate": "Keerthi vasan", "alliance": "NONE" }
+    }
+  ],
+
+  "ARIYALUR": [
+    {
+      "constituencyNo": 149,
+      "name": "ARIYALUR",
+      "DMK": { "candidate": "Latha Balu", "alliance": "" },
+      "ADMK": { "candidate": "Thamarai S. Rajendran", "alliance": "" },
+      "TVK": { "candidate": "M. Sivakumar", "alliance": "NONE" },
+      "NTK": { "candidate": "Pugalendhi", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 150,
+      "name": "JAYANKONDAM",
+      "DMK": { "candidate": "Kannan", "alliance": "" },
+      "ADMK": { "candidate": "K. Vaithi", "alliance": "PMK" },
+      "TVK": { "candidate": "Kavitha G Rajendran", "alliance": "NONE" },
+      "NTK": { "candidate": "Revathi Kalaimani", "alliance": "NONE" }
+    }
+  ],
+
+  "CUDDALORE": [
+    {
+      "constituencyNo": 151,
+      "name": "TITTAKUDI",
+      "DMK": { "candidate": "C.V. Ganesan", "alliance": "" },
+      "ADMK": { "candidate": "N. Murugumaran", "alliance": "" },
+      "TVK": { "candidate": "Rajasekar", "alliance": "NONE" },
+      "NTK": { "candidate": "Mahalakshmi", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 152,
+      "name": "VIRUDHACHALAM",
+      "DMK": { "candidate": "Premalatha Vijayakanth", "alliance": "DMDK" },
+      "ADMK": { "candidate": "Thamizharasi Athimoolam", "alliance": "PMK" },
+      "TVK": { "candidate": "S. Vijay", "alliance": "NONE" },
+      "NTK": { "candidate": "Amudha Nambi", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 153,
+      "name": "NEYVELI",
+      "DMK": { "candidate": "Saba. Rajendran", "alliance": "" },
+      "ADMK": { "candidate": "Sorathur R. Rajendran", "alliance": "" },
+      "TVK": { "candidate": "K. Anand", "alliance": "NONE" },
+      "NTK": { "candidate": "Veeramani", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 154,
+      "name": "PANRUTI",
+      "DMK": { "candidate": "Abdul Rahman", "alliance": "VCK" },
+      "ADMK": { "candidate": "K. Mohan", "alliance": "" },
+      "TVK": { "candidate": "M. Manikandan", "alliance": "NONE" },
+      "NTK": { "candidate": "Banu priya", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 155,
+      "name": "CUDDALORE",
+      "DMK": { "candidate": "A.S. Chandrasekaran", "alliance": "INC" },
+      "ADMK": { "candidate": "M.C. Sampath", "alliance": "" },
+      "TVK": { "candidate": "V. Rajkumar", "alliance": "NONE" },
+      "NTK": { "candidate": "Sarasu", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 156,
+      "name": "KURINJIPADI",
+      "DMK": { "candidate": "MRK. Paneerselvam", "alliance": "" },
+      "ADMK": { "candidate": "A. Bhuvanendiran", "alliance": "" },
+      "TVK": { "candidate": "Dr Rajkumar", "alliance": "NONE" },
+      "NTK": { "candidate": "Sengolan", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 157,
+      "name": "BHUVANAGIRI",
+      "DMK": { "candidate": "Durai K. Saravanan", "alliance": "" },
+      "ADMK": { "candidate": "A. Arunmozhidevan", "alliance": "" },
+      "TVK": { "candidate": "D.M. Mahalingam", "alliance": "NONE" },
+      "NTK": { "candidate": "Sumathi Srinivasan", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 158,
+      "name": "CHIDAMBARAM",
+      "DMK": { "candidate": "Thameemun Ansari", "alliance": "" },
+      "ADMK": { "candidate": "K.A. Pandian", "alliance": "" },
+      "TVK": { "candidate": "Dr N. Pari", "alliance": "NONE" },
+      "NTK": { "candidate": "Tamil", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 159,
+      "name": "KATTUMANNARKOIL",
+      "DMK": { "candidate": "Thol. Thirumavalavan", "alliance": "VCK" },
+      "ADMK": { "candidate": "Anbu Chozhan", "alliance": "PMK" },
+      "TVK": { "candidate": "S. Srinivasan", "alliance": "NONE" },
+      "NTK": { "candidate": "Sivajothi", "alliance": "NONE" }
+    }
+  ],
+
+  "MAYILADUTHURAI": [
+    {
+      "constituencyNo": 160,
+      "name": "SIRKAZHI",
+      "DMK": { "candidate": "Senthilselvan", "alliance": "" },
+      "ADMK": { "candidate": "M. Sakthi", "alliance": "" },
+      "TVK": { "candidate": "C.S. Gopinath", "alliance": "NONE" },
+      "NTK": { "candidate": "Subash", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 161,
+      "name": "MAYILADUTHURAI",
+      "DMK": { "candidate": "Senthi Selvan", "alliance": "MDMK" },
+      "ADMK": { "candidate": "Sithamalli A. Palanisamy", "alliance": "PMK" },
+      "TVK": { "candidate": "C.S. Arun Rasheeth", "alliance": "NONE" },
+      "NTK": { "candidate": "Kasiraman", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 162,
+      "name": "POOMPUHAR",
+      "DMK": { "candidate": "Nivetha Murugan", "alliance": "" },
+      "ADMK": { "candidate": "S. Pavunraj", "alliance": "" },
+      "TVK": { "candidate": "K. Vijayalayan", "alliance": "NONE" },
+      "NTK": { "candidate": "Ilaiya Nagulan", "alliance": "NONE" }
+    }
+  ],
+
+  "NAGAPATTINAM": [
+    {
+      "constituencyNo": 163,
+      "name": "NAGAPATTINAM",
+      "DMK": { "candidate": "M.H. Jawaheerullah", "alliance": "MMK" },
+      "ADMK": { "candidate": "Thanga Kathiravan", "alliance": "" },
+      "TVK": { "candidate": "N. Sukumar", "alliance": "NONE" },
+      "NTK": { "candidate": "Fathima Farhana", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 164,
+      "name": "KILVELUR",
+      "DMK": { "candidate": "D. Latha", "alliance": "CPIM" },
+      "ADMK": { "candidate": "Vadivel Ravanan", "alliance": "PMK" },
+      "TVK": { "candidate": "D.A.P. Senthilpandiyan", "alliance": "NONE" },
+      "NTK": { "candidate": "Karthiga", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 165,
+      "name": "VEDARANYAM",
+      "DMK": { "candidate": "Pugazhendhi", "alliance": "" },
+      "ADMK": { "candidate": "O.S. Maniyan", "alliance": "" },
+      "TVK": { "candidate": "A. Kingsley Gerald", "alliance": "NONE" },
+      "NTK": { "candidate": "Idubavanam Karthik", "alliance": "NONE" }
+    }
+  ],
+
+  "THIRUVARUR": [
+    {
+      "constituencyNo": 166,
+      "name": "THIRUTHURAIPOONDI",
+      "DMK": { "candidate": "Marimuthu", "alliance": "CPI" },
+      "ADMK": { "candidate": "Balathandayutham", "alliance": "" },
+      "TVK": { "candidate": "S. Pandiyan", "alliance": "NONE" },
+      "NTK": { "candidate": "Vinothini", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 167,
+      "name": "MANNARGUDI",
+      "DMK": { "candidate": "TRB. Raja", "alliance": "" },
+      "ADMK": { "candidate": "S. Kamaraj", "alliance": "AMMK" },
+      "TVK": { "candidate": "UVM Rajarajan", "alliance": "NONE" },
+      "NTK": { "candidate": "Bharathi Selvan", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 168,
+      "name": "THIRUVARUR",
+      "DMK": { "candidate": "Poondi K. Kalaivanan", "alliance": "" },
+      "ADMK": { "candidate": "Govi Chandru", "alliance": "BJP" },
+      "TVK": { "candidate": "V. Veeramani", "alliance": "NONE" },
+      "NTK": { "candidate": "Ashwini", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 169,
+      "name": "NANNILAM",
+      "DMK": { "candidate": "Muhammad Mubarak", "alliance": "SDPI" },
+      "ADMK": { "candidate": "R. Kamaraj", "alliance": "" },
+      "TVK": { "candidate": "S. Prabhakaran", "alliance": "NONE" },
+      "NTK": { "candidate": "Theanmozhi Dileep Kumar", "alliance": "NONE" }
+    }
+  ],
+
+  "THANJAVUR": [
+    {
+      "constituencyNo": 170,
+      "name": "THIRUVIDAIMARUDUR",
+      "DMK": { "candidate": "Kovi. Sezhiyan", "alliance": "" },
+      "ADMK": { "candidate": "Ilamathi Subramanian", "alliance": "" },
+      "TVK": { "candidate": "S. Prabhakaran", "alliance": "NONE" },
+      "NTK": { "candidate": "Divya Bharathi", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 171,
+      "name": "KUMBAKONAM",
+      "DMK": { "candidate": "Sakkottai K. Anbazhagan", "alliance": "" },
+      "ADMK": { "candidate": "Ashok Kumar", "alliance": "TMC" },
+      "TVK": { "candidate": "R. Vinoth", "alliance": "NONE" },
+      "NTK": { "candidate": "Ananth", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 172,
+      "name": "PAPANASAM",
+      "DMK": { "candidate": "A.M. Shajahan", "alliance": "IUML" },
+      "ADMK": { "candidate": "D. Shanmugaprabhu", "alliance": "" },
+      "TVK": { "candidate": "U. Azarudeen", "alliance": "NONE" },
+      "NTK": { "candidate": "Aneesh Fathima", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 173,
+      "name": "THIRUVAIYARU",
+      "DMK": { "candidate": "Durai Chandrasekaran", "alliance": "" },
+      "ADMK": { "candidate": "Velu Karthikeyan", "alliance": "AMMK" },
+      "TVK": { "candidate": "M. Manikandan", "alliance": "NONE" },
+      "NTK": { "candidate": "Senthilnathan", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 174,
+      "name": "THANJAVUR",
+      "DMK": { "candidate": "Ramanathan", "alliance": "" },
+      "ADMK": { "candidate": "M. Muruganantham", "alliance": "BJP" },
+      "TVK": { "candidate": "R. Vijay Saravanan", "alliance": "NONE" },
+      "NTK": { "candidate": "Krishna Kumar", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 175,
+      "name": "ORATHANADU",
+      "DMK": { "candidate": "R. Vaithilingam", "alliance": "" },
+      "ADMK": { "candidate": "M. Sekar", "alliance": "" },
+      "TVK": { "candidate": "Dr. K. Aravind", "alliance": "NONE" },
+      "NTK": { "candidate": "Thirumurugan", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 176,
+      "name": "PATTUKKOTTAI",
+      "DMK": { "candidate": "Annadurai", "alliance": "" },
+      "ADMK": { "candidate": "C.V. Sekar", "alliance": "" },
+      "TVK": { "candidate": "C. Madhan", "alliance": "NONE" },
+      "NTK": { "candidate": "Kannan", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 177,
+      "name": "PERAVURANI",
+      "DMK": { "candidate": "Ashok Kumar", "alliance": "" },
+      "ADMK": { "candidate": "Kovi Ilango", "alliance": "" },
+      "TVK": { "candidate": "T. Chandra Kaandeeban", "alliance": "NONE" },
+      "NTK": { "candidate": "Rajaram", "alliance": "NONE" }
+    }
+  ],
+
+  "PUDUKKOTTAI": [
+    {
+      "constituencyNo": 178,
+      "name": "GANDARVAKKOTTAI",
+      "DMK": { "candidate": "M. Chinnadurai", "alliance": "CPIM" },
+      "ADMK": { "candidate": "C. Udhayakumar", "alliance": "BJP" },
+      "TVK": { "candidate": "N. Subramanian", "alliance": "NONE" },
+      "NTK": { "candidate": "Nadiya Tamilselvan", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 179,
+      "name": "VIRALIMALAI",
+      "DMK": { "candidate": "Chellapandian", "alliance": "" },
+      "ADMK": { "candidate": "Vijayabaskar", "alliance": "" },
+      "TVK": { "candidate": "P. Murugesan", "alliance": "NONE" },
+      "NTK": { "candidate": "Sathya Lakshmi", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 180,
+      "name": "PUDUKKOTTAI",
+      "DMK": { "candidate": "Vai. Muthuraja", "alliance": "" },
+      "ADMK": { "candidate": "N. Ramachandran", "alliance": "BJP" },
+      "TVK": { "candidate": "K.M. Shareef", "alliance": "NONE" },
+      "NTK": { "candidate": "Ezhilarasi", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 181,
+      "name": "THIRUMAYAM",
+      "DMK": { "candidate": "S. Ragupathy", "alliance": "" },
+      "ADMK": { "candidate": "P.K. Vairamuthu", "alliance": "" },
+      "TVK": { "candidate": "C. Sindhamani", "alliance": "NONE" },
+      "NTK": { "candidate": "Lakshmi Srinivasan", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 182,
+      "name": "ALANGUDI",
+      "DMK": { "candidate": "Siva V. Meyyanathan", "alliance": "" },
+      "ADMK": { "candidate": "Thana Vimal", "alliance": "" },
+      "TVK": { "candidate": "Durai Kandasamy", "alliance": "NONE" },
+      "NTK": { "candidate": "Rajaraman", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 183,
+      "name": "ARANTHANGI",
+      "DMK": { "candidate": "T. Ramachandran", "alliance": "INC" },
+      "ADMK": { "candidate": "Kavitha Srikanth", "alliance": "BJP" },
+      "TVK": { "candidate": "J. Mohamad Parvez", "alliance": "NONE" },
+      "NTK": { "candidate": "Muthu Lakshmi", "alliance": "NONE" }
+    }
+  ],
+
+  "SIVAGANGAI": [
+    {
+      "constituencyNo": 184,
+      "name": "KARAIKUDI",
+      "DMK": { "candidate": "Mangudi", "alliance": "INC" },
+      "ADMK": { "candidate": "Therbogi Pandi", "alliance": "AMMK" },
+      "TVK": { "candidate": "Dr. T.K. Prabhu", "alliance": "NONE" },
+      "NTK": { "candidate": "Seeman", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 185,
+      "name": "TIRUPPATTUR",
+      "DMK": { "candidate": "K.R. Periyakaruppan", "alliance": "" },
+      "ADMK": { "candidate": "Gnanasekaran", "alliance": "AMMK" },
+      "TVK": { "candidate": "Srinivasa Sethupathi", "alliance": "NONE" },
+      "NTK": { "candidate": "Ramya Mohan", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 186,
+      "name": "SIVAGANGAI",
+      "DMK": { "candidate": "Karunas", "alliance": "" },
+      "ADMK": { "candidate": "P.R. Senthilnathan", "alliance": "" },
+      "TVK": { "candidate": "Kulandhai Rani Nachiar", "alliance": "NONE" },
+      "NTK": { "candidate": "Indhuja Ramesh", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 187,
+      "name": "MANAMADURAI",
+      "DMK": { "candidate": "Tamizharasi Ravikumar", "alliance": "" },
+      "ADMK": { "candidate": "Pon. V. Balaganapathy", "alliance": "BJP" },
+      "TVK": { "candidate": "D. Ilangovan", "alliance": "NONE" },
+      "NTK": { "candidate": "Shanmugapriya", "alliance": "NONE" }
+    }
+  ],
+
+  "MADURAI": [
+    {
+      "constituencyNo": 188,
+      "name": "MELUR",
+      "DMK": { "candidate": "P. Viswanathan", "alliance": "INC" },
+      "ADMK": { "candidate": "P. Periyapullan", "alliance": "" },
+      "TVK": { "candidate": "A. Madurai Veeran", "alliance": "NONE" },
+      "NTK": { "candidate": "Kottai Kumar", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 189,
+      "name": "MADURAI EAST",
+      "DMK": { "candidate": "P. Moorthy", "alliance": "" },
+      "ADMK": { "candidate": "Mangulam K. Mahendiran", "alliance": "" },
+      "TVK": { "candidate": "S. Karthikeyan", "alliance": "NONE" },
+      "NTK": { "candidate": "Selvam", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 190,
+      "name": "SHOLAVANDAN",
+      "DMK": { "candidate": "A. Venkatesan", "alliance": "" },
+      "ADMK": { "candidate": "Manickam", "alliance": "" },
+      "TVK": { "candidate": "M.V. Karuppaiah", "alliance": "NONE" },
+      "NTK": { "candidate": "Nagalakshmi Thirumaran", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 191,
+      "name": "MADURAI NORTH",
+      "DMK": { "candidate": "Ko. Thalapathy", "alliance": "" },
+      "ADMK": { "candidate": "P. Saravanan", "alliance": "" },
+      "TVK": { "candidate": "A. Kallanai", "alliance": "NONE" },
+      "NTK": { "candidate": "Thirunavukkarasu", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 192,
+      "name": "MADURAI SOUTH",
+      "DMK": { "candidate": "Boominathan", "alliance": "MDMK" },
+      "ADMK": { "candidate": "Rama Sreenivasan", "alliance": "BJP" },
+      "TVK": { "candidate": "J. Jo Peter", "alliance": "NONE" },
+      "NTK": { "candidate": "Sathya Devi", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 193,
+      "name": "MADURAI CENTRAL",
+      "DMK": { "candidate": "PTR. Palanivel Thiyagarajan", "alliance": "" },
+      "ADMK": { "candidate": "Sundar C.", "alliance": "" },
+      "TVK": { "candidate": "V.N.S. Mustafa", "alliance": "NONE" },
+      "NTK": { "candidate": "Durga Kumaraswamy", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 194,
+      "name": "MADURAI WEST",
+      "DMK": { "candidate": "Raghu Balaji", "alliance": "" },
+      "ADMK": { "candidate": "Sellur Raju", "alliance": "" },
+      "TVK": { "candidate": "S.R. Thangapandi", "alliance": "NONE" },
+      "NTK": { "candidate": "Vignesh Kumar", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 195,
+      "name": "THIRUPARANKUNDRAM",
+      "DMK": { "candidate": "Krithiga Thangapandi", "alliance": "" },
+      "ADMK": { "candidate": "V.V. Rajan Chellappa", "alliance": "" },
+      "TVK": { "candidate": "CTR. Nirmalkumar", "alliance": "NONE" },
+      "NTK": { "candidate": "Sathya Devi", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 196,
+      "name": "THIRUMANGALAM",
+      "DMK": { "candidate": "Sedapatti Manimaran", "alliance": "" },
+      "ADMK": { "candidate": "R.B. Udhayakumar", "alliance": "" },
+      "TVK": { "candidate": "N. Sathish Kumar", "alliance": "NONE" },
+      "NTK": { "candidate": "Munis", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 197,
+      "name": "USILAMPATTI",
+      "DMK": { "candidate": "T. Saravana Kumar", "alliance": "INC" },
+      "ADMK": { "candidate": "I. Mahendiran", "alliance": "" },
+      "TVK": { "candidate": "Vijay Mahalingam", "alliance": "NONE" },
+      "NTK": { "candidate": "Abirami Dhanapal", "alliance": "NONE" }
+    }
+  ],
+
+  "THENI": [
+    {
+      "constituencyNo": 198,
+      "name": "ANDIPATTI",
+      "DMK": { "candidate": "Maharajan", "alliance": "" },
+      "ADMK": { "candidate": "A. Lokirajan", "alliance": "" },
+      "TVK": { "candidate": "V. Pandi", "alliance": "NONE" },
+      "NTK": { "candidate": "Arunadevi", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 199,
+      "name": "PERIYAKULAM",
+      "DMK": { "candidate": "Aattral Arasu", "alliance": "VCK" },
+      "ADMK": { "candidate": "Kathirkamu", "alliance": "AMMK" },
+      "TVK": { "candidate": "G. Sabari", "alliance": "NONE" },
+      "NTK": { "candidate": "Vimala", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 200,
+      "name": "BODINAYAKANUR",
+      "DMK": { "candidate": "O. Paneer Selvam", "alliance": "" },
+      "ADMK": { "candidate": "V.T. Narayanasamy", "alliance": "" },
+      "TVK": { "candidate": "S. Prakash", "alliance": "NONE" },
+      "NTK": { "candidate": "Kalaiyarasu", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 201,
+      "name": "CUMBUM",
+      "DMK": { "candidate": "Ramakrishnan", "alliance": "" },
+      "ADMK": { "candidate": "S.T.K. Jakaiyan", "alliance": "" },
+      "TVK": { "candidate": "P.L.A. Jaganath", "alliance": "NONE" },
+      "NTK": { "candidate": "Anbu Selvi", "alliance": "NONE" }
+    }
+  ],
+
+  "VIRUDHUNAGAR": [
+    {
+      "constituencyNo": 202,
+      "name": "RAJAPALAYAM",
+      "DMK": { "candidate": "Thangapandian", "alliance": "" },
+      "ADMK": { "candidate": "Priscilla Pandian", "alliance": "TMMK" },
+      "TVK": { "candidate": "K. Jagadeeswari", "alliance": "NONE" },
+      "NTK": { "candidate": "Karthik", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 203,
+      "name": "SRIVILLIPUTHUR",
+      "DMK": { "candidate": "Mahalingam", "alliance": "CPI" },
+      "ADMK": { "candidate": "M. Chandiraprabha", "alliance": "" },
+      "TVK": { "candidate": "A. Karthik", "alliance": "NONE" },
+      "NTK": { "candidate": "Karikala Pandiyan", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 204,
+      "name": "SATTUR",
+      "DMK": { "candidate": "Kadarkarai Raja", "alliance": "" },
+      "ADMK": { "candidate": "Nayinar Nagendran", "alliance": "BJP" },
+      "TVK": { "candidate": "M. Ajith", "alliance": "NONE" },
+      "NTK": { "candidate": "Anandha Raja", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 205,
+      "name": "SIVAKASI",
+      "DMK": { "candidate": "Ganesan Ashokan", "alliance": "INC" },
+      "ADMK": { "candidate": "KT. Rajendrabalaji", "alliance": "" },
+      "TVK": { "candidate": "Keerthana", "alliance": "NONE" },
+      "NTK": { "candidate": "Dayana", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 206,
+      "name": "VIRUDHUNAGAR",
+      "DMK": { "candidate": "Vijaya Prabakar", "alliance": "DMDK" },
+      "ADMK": { "candidate": "V.G. Ganesan", "alliance": "" },
+      "TVK": { "candidate": "S.P. Selvam", "alliance": "NONE" },
+      "NTK": { "candidate": "Laxmanan", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 207,
+      "name": "ARUPPUKKOTTAI",
+      "DMK": { "candidate": "K.K.S.S.R. Ramachandran", "alliance": "" },
+      "ADMK": { "candidate": "S. Sethupathy", "alliance": "" },
+      "TVK": { "candidate": "K. Karthik Kumar", "alliance": "NONE" },
+      "NTK": { "candidate": "Manimaran", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 208,
+      "name": "TIRUCHULI",
+      "DMK": { "candidate": "Thangam Thennarasu", "alliance": "" },
+      "ADMK": { "candidate": "M.S.R. Rajavarman", "alliance": "" },
+      "TVK": { "candidate": "S. Samayan", "alliance": "NONE" },
+      "NTK": { "candidate": "Karthick Raja", "alliance": "NONE" }
+    }
+  ],
+
+  "RAMANATHAPURAM": [
+    {
+      "constituencyNo": 209,
+      "name": "PARAMAKUDI",
+      "DMK": { "candidate": "K.K. Kathiravan", "alliance": "" },
+      "ADMK": { "candidate": "S. Muthaiya", "alliance": "" },
+      "TVK": { "candidate": "G. Gopinathan", "alliance": "NONE" },
+      "NTK": { "candidate": "Ezhil Ilavarasi", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 210,
+      "name": "TIRUVADANAI",
+      "DMK": { "candidate": "Rama Karumanickam", "alliance": "INC" },
+      "ADMK": { "candidate": "Keerthiga Muniyasamy", "alliance": "" },
+      "TVK": { "candidate": "V.K. Raji", "alliance": "NONE" },
+      "NTK": { "candidate": "Premnath", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 211,
+      "name": "RAMANATHAPURAM",
+      "DMK": { "candidate": "Kadhar Basha Muthuramalingam", "alliance": "" },
+      "ADMK": { "candidate": "GBS K. Nagendran", "alliance": "" },
+      "TVK": { "candidate": "E.K. Sahul Hameed", "alliance": "NONE" },
+      "NTK": { "candidate": "Muthu Kesavan", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 212,
+      "name": "MUDHUKULATHUR",
+      "DMK": { "candidate": "R.S. Rajakannappan", "alliance": "" },
+      "ADMK": { "candidate": "Malaysia S. Pandi", "alliance": "" },
+      "TVK": { "candidate": "V. Malarvizhi Jayabala", "alliance": "NONE" },
+      "NTK": { "candidate": "Chandra Prabha", "alliance": "NONE" }
+    }
+  ],
+
+  "THOOTHUKUDI": [
+    {
+      "constituencyNo": 213,
+      "name": "VILATHIKULAM",
+      "DMK": { "candidate": "G.V. Markandeyan", "alliance": "" },
+      "ADMK": { "candidate": "R. Sathya", "alliance": "" },
+      "TVK": { "candidate": "Kasiram", "alliance": "NONE" },
+      "NTK": { "candidate": "Balaji", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 214,
+      "name": "THOOTHUKUDI",
+      "DMK": { "candidate": "Geetha Jeevan", "alliance": "" },
+      "ADMK": { "candidate": "C.T. Chellapandian", "alliance": "" },
+      "TVK": { "candidate": "A. Srinath", "alliance": "NONE" },
+      "NTK": { "candidate": "Jacob Abhishek Devadasan", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 215,
+      "name": "TIRUCHENDUR",
+      "DMK": { "candidate": "Anitha Radhakrishnan", "alliance": "" },
+      "ADMK": { "candidate": "KRM. Radhakrishnan", "alliance": "" },
+      "TVK": { "candidate": "K. Murugan", "alliance": "NONE" },
+      "NTK": { "candidate": "Obiliya", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 216,
+      "name": "SRIVAIKUNTAM",
+      "DMK": { "candidate": "Oorvashi Amirdharaj", "alliance": "" },
+      "ADMK": { "candidate": "S.P. Shanmuganathan", "alliance": "" },
+      "TVK": { "candidate": "G. Saravanan", "alliance": "NONE" },
+      "NTK": { "candidate": "Shanmugasundaram", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 217,
+      "name": "OTTAPIDARAM",
+      "DMK": { "candidate": "P.M. Ramajeyam", "alliance": "" },
+      "ADMK": { "candidate": "Sundar Rajan", "alliance": "AMMK" },
+      "TVK": { "candidate": "P. Madhanraja", "alliance": "NONE" },
+      "NTK": { "candidate": "Anusiya", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 218,
+      "name": "KOVILPATTI",
+      "DMK": { "candidate": "K. Karunanidhi", "alliance": "" },
+      "ADMK": { "candidate": "Kadambur C. Raju", "alliance": "" },
+      "TVK": { "candidate": "S. Balasubramaniam", "alliance": "NONE" },
+      "NTK": { "candidate": "Pandi", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 219,
+      "name": "SANKARANKOVIL",
+      "DMK": { "candidate": "Sangai Ganeshan", "alliance": "INC" },
+      "ADMK": { "candidate": "Dileepan", "alliance": "" },
+      "TVK": { "candidate": "C. Ramarajan", "alliance": "NONE" },
+      "NTK": { "candidate": "Kavitha", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 220,
+      "name": "VASUDEVANALLUR",
+      "DMK": { "candidate": "E. Raja", "alliance": "" },
+      "ADMK": { "candidate": "Anandhan Ayyasamy", "alliance": "BJP" },
+      "TVK": { "candidate": "R. Amudha Rani", "alliance": "NONE" },
+      "NTK": { "candidate": "Isai Mathivanan", "alliance": "NONE" }
+    }
+  ],
+
+  "TENKASI": [
+    {
+      "constituencyNo": 221,
+      "name": "KADAYANALLUR",
+      "DMK": { "candidate": "T.M. Rajendran", "alliance": "MDMK" },
+      "ADMK": { "candidate": "C. Krishnamurali", "alliance": "" },
+      "TVK": { "candidate": "R.K. Abdul Jalil", "alliance": "NONE" },
+      "NTK": { "candidate": "Abubakar Siddique", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 222,
+      "name": "TENKASI",
+      "DMK": { "candidate": "Kalai Kathiravan", "alliance": "" },
+      "ADMK": { "candidate": "S. Selva Mohandas", "alliance": "" },
+      "TVK": { "candidate": "A. Rajaprakash", "alliance": "NONE" },
+      "NTK": { "candidate": "Gowshik Pandiyan", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 223,
+      "name": "ALANGULAM",
+      "DMK": { "candidate": "Paul Manoj Pandian", "alliance": "" },
+      "ADMK": { "candidate": "K.R.P. Prabakaran", "alliance": "" },
+      "TVK": { "candidate": "V. Vipin Chakravarthi", "alliance": "NONE" },
+      "NTK": { "candidate": "Palraj", "alliance": "NONE" }
+    }
+  ],
+
+  "TIRUNELVELI": [
+    {
+      "constituencyNo": 224,
+      "name": "TIRUNELVELI",
+      "DMK": { "candidate": "Subramanian", "alliance": "" },
+      "ADMK": { "candidate": "Tanjai N. Ganesaraja", "alliance": "" },
+      "TVK": { "candidate": "R.S. Murugan", "alliance": "NONE" },
+      "NTK": { "candidate": "Sathya", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 225,
+      "name": "AMBASAMUDRAM",
+      "DMK": { "candidate": "V.P. Durai", "alliance": "INC" },
+      "ADMK": { "candidate": "Isakki Subbaiya", "alliance": "" },
+      "TVK": { "candidate": "S. Rajagopal", "alliance": "NONE" },
+      "NTK": { "candidate": "Sivasankaran", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 226,
+      "name": "PALAYAMKOTTAI",
+      "DMK": { "candidate": "Abdul Wahab", "alliance": "" },
+      "ADMK": { "candidate": "S. Seid Sultan Samsudeen", "alliance": "" },
+      "TVK": { "candidate": "S. Maria John", "alliance": "NONE" },
+      "NTK": { "candidate": "Sankara Narayanan", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 227,
+      "name": "NANGUNERI",
+      "DMK": { "candidate": "Ruby Manoharan", "alliance": "INC" },
+      "ADMK": { "candidate": "Isakimuthu", "alliance": "AMMK" },
+      "TVK": { "candidate": "Rettiyapatti Narayanan", "alliance": "NONE" },
+      "NTK": { "candidate": "Selvam", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 228,
+      "name": "RADHAPURAM",
+      "DMK": { "candidate": "Appavu", "alliance": "" },
+      "ADMK": { "candidate": "S.P. Balakrishnan", "alliance": "BJP" },
+      "TVK": { "candidate": "K. Satheesh Christopher", "alliance": "NONE" },
+      "NTK": { "candidate": "Girija Thamaraipandiyan", "alliance": "NONE" }
+    }
+  ],
+
+  "KANNIYAKUMARI": [
+    {
+      "constituencyNo": 229,
+      "name": "KANNIYAKUMARI",
+      "DMK": { "candidate": "R. Mahesh", "alliance": "" },
+      "ADMK": { "candidate": "N. Thalavai Sundaram", "alliance": "" },
+      "TVK": { "candidate": "S.R. Madhavan", "alliance": "NONE" },
+      "NTK": { "candidate": "Maria Jenifer", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 230,
+      "name": "NAGERCOIL",
+      "DMK": { "candidate": "S. Austin", "alliance": "" },
+      "ADMK": { "candidate": "M.R. Gandhi", "alliance": "BJP" },
+      "TVK": { "candidate": "G. King", "alliance": "NONE" },
+      "NTK": { "candidate": "Muthukumar", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 231,
+      "name": "COLACHAL",
+      "DMK": { "candidate": "Tharagai Cuthbert", "alliance": "INC" },
+      "ADMK": { "candidate": "T. Shivakumar", "alliance": "BJP" },
+      "TVK": { "candidate": "Prem Alex Lawrence", "alliance": "NONE" },
+      "NTK": { "candidate": "Ancy Sobha Rani", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 232,
+      "name": "PADMANABHAPURAM",
+      "DMK": { "candidate": "R. Chellasamy", "alliance": "" },
+      "ADMK": { "candidate": "P. Ramesh", "alliance": "" },
+      "TVK": { "candidate": "S. Krishnakumar", "alliance": "NONE" },
+      "NTK": { "candidate": "Seelan", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 233,
+      "name": "VILAVANCODE",
+      "DMK": { "candidate": "T.T. Praveen", "alliance": "INC" },
+      "ADMK": { "candidate": "Vijaya Dharanai", "alliance": "BJP" },
+      "TVK": { "candidate": "K. Michael Kumar", "alliance": "NONE" },
+      "NTK": { "candidate": "Maria Stella", "alliance": "NONE" }
+    },
+    {
+      "constituencyNo": 234,
+      "name": "KILLIYUR",
+      "DMK": { "candidate": "S. Rajesh Kumar", "alliance": "INC" },
+      "ADMK": { "candidate": "Nivin Simon", "alliance": "TMC" },
+      "TVK": { "candidate": "S. Sabeer", "alliance": "NONE" },
+      "NTK": { "candidate": "Himlar", "alliance": "NONE" }
+    }
+
+
+
+  ]
+}
+
