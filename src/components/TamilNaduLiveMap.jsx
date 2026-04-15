@@ -6,55 +6,146 @@ export default function TamilNaduLiveMap() {
     const [liveData, setLiveData] = useState([]);
     const [search, setSearch] = useState("");
     const [selected, setSelected] = useState(null);
+    const [selectedYear, setSelectedYear] = useState("2021");
+    const [selected2026Party, setSelected2026Party] = useState("DMK");
 
     useEffect(() => {
         fetch("/data/tn-234-constituencies.geojson")
             .then((res) => res.json())
-            .then((data) => {
-                console.log("GeoJSON loaded:", data?.features?.length);
-                setGeoData(data);
-            })
+            .then((data) => setGeoData(data))
             .catch((err) => console.error("GeoJSON load error:", err));
-    }, []);
-
-    useEffect(() => {
-        const fetchLive = async () => {
-            try {
-                const res = await fetch("/data/db.json");
-                const data = await res.json();
-                console.log("Live data loaded:", data?.length);
-                setLiveData(Array.isArray(data) ? data : []);
-            } catch (err) {
-                console.error("Live data fetch error:", err);
-            }
-        };
-
-        fetchLive();
-        const interval = setInterval(fetchLive, 30000);
-        return () => clearInterval(interval);
     }, []);
 
     const normalizeName = (value) =>
         String(value || "")
             .toLowerCase()
             .replace(/\(sc\)|\(st\)/g, "")
+            .replace(/dr\./g, "dr")
+            .replace(/thiru-vi-ka/g, "thiruvika")
+            .replace(/chepauk\s*-\s*thiruvallikeni/g, "chepaukthiruvallikeni")
+            .replace(/rk\.?nagar/g, "rknagar")
+            .replace(/annanagar/g, "annanagar")
+            .replace(/tiruvottriyur/g, "tiruvottiyur")
+            .replace(/tirukko(y|i)ilur/g, "tirukkoyilur")
             .replace(/[^a-z0-9]/g, "");
 
     const partyColors = {
         DMK: "#e11d48",
         AIADMK: "#16a34a",
+        ADMK: "#16a34a",
         BJP: "#f59e0b",
         INC: "#2563eb",
         NTK: "#7c3aed",
         PMK: "#ea580c",
-        VCK: "#0f766e",
+        TVK: "#0ea5e9",
+        VCK: "#14b8a6",
         CPI: "#dc2626",
         CPM: "#b91c1c",
-        AMMK: "#92400e",
-        DMDK: "#1d4ed8",
-        MNM: "#0891b2",
-        TVK: "#be123c",
+        "CPI(M)": "#b91c1c",
+        KMDK: "#8b5cf6",
+        KNMDK: "#8b5cf6",
+        IUML: "#22c55e",
+        MMK: "#f97316",
+        DMDK: "#6366f1",
+        MDMK: "#a855f7",
+        TMC: "#06b6d4",
+        AMMK: "#64748b",
+        IJK: "#94a3b8",
+        PBK: "#475569",
     };
+
+    const getAllianceLabel = (party, allianceValue = "") => {
+        const p = String(party || "").toUpperCase();
+        const a = String(allianceValue || "").toUpperCase().trim();
+
+        if (!a || a === "NONE") {
+            if (["DMK", "INC", "CPI", "CPM", "CPI(M)", "VCK", "IUML", "KMDK", "KNMDK", "MMK", "MDMK"].includes(p)) {
+                return "INDIA";
+            }
+            if (["AIADMK", "ADMK", "BJP", "PMK", "AMMK", "TMC", "IJK", "PBK"].includes(p)) {
+                return "NDA";
+            }
+            if (["TVK", "NTK"].includes(p)) {
+                return "OTHERS";
+            }
+            return "OTHERS";
+        }
+
+        return a;
+    };
+
+    const normalizeResultYears = (json) => {
+        if (!Array.isArray(json?.constituencies)) return [];
+
+        return json.constituencies.map((item) => ({
+            constituencyNo: Number(item.constituencyNo),
+            name: item.name || "Unknown",
+            district: item.district || "Unknown",
+            party: item.party || "N/A",
+            mla: item.mla || "N/A",
+            alliance: item.alliance || getAllianceLabel(item.party),
+            winningMargin: Number(item.winningMargin || 0),
+            sentiment: item.sentiment || "neutral",
+            alertCount: Number(item.alertCount || 0),
+        }));
+    };
+
+    const normalize2026Data = (json, activeParty) => {
+        if (!json || typeof json !== "object") return [];
+
+        const rows = [];
+
+        Object.entries(json).forEach(([district, seats]) => {
+            if (!Array.isArray(seats)) return;
+
+            seats.forEach((seat) => {
+                const partyBlock = seat?.[activeParty] || null;
+
+                rows.push({
+                    constituencyNo: Number(seat.constituencyNo),
+                    name: seat.name || "Unknown",
+                    district,
+                    party: activeParty,
+                    mla: partyBlock?.candidate || "N/A",
+                    alliance: getAllianceLabel(activeParty, partyBlock?.alliance),
+                    winningMargin: 0,
+                    sentiment: "neutral",
+                    alertCount: 0,
+                });
+            });
+        });
+
+        return rows.sort((a, b) => a.constituencyNo - b.constituencyNo);
+    };
+
+    useEffect(() => {
+        const loadElectionData = async () => {
+            try {
+                const res = await fetch(`/data/elections/${selectedYear}.json`);
+                const json = await res.json();
+
+                const rows =
+                    selectedYear === "2026"
+                        ? normalize2026Data(json, selected2026Party)
+                        : normalizeResultYears(json);
+
+                setLiveData(rows);
+
+                setSelected((prev) => {
+                    if (!prev) return null;
+                    const nextSelected = rows.find(
+                        (r) => Number(r.constituencyNo) === Number(prev.constituencyNo)
+                    );
+                    return nextSelected || null;
+                });
+            } catch (err) {
+                console.error("Error loading election data:", err);
+                setLiveData([]);
+            }
+        };
+
+        loadElectionData();
+    }, [selectedYear, selected2026Party]);
 
     const liveMap = useMemo(() => {
         const map = new Map();
@@ -84,17 +175,22 @@ export default function TamilNaduLiveMap() {
             .filter((item) => {
                 if (!query) return true;
                 return (
-                    item.name.toLowerCase().includes(query) ||
-                    item.district.toLowerCase().includes(query)
+                    String(item.name).toLowerCase().includes(query) ||
+                    String(item.district).toLowerCase().includes(query)
                 );
             })
-            .sort((a, b) => {
-                if (b.alertCount !== a.alertCount) {
-                    return b.alertCount - a.alertCount;
-                }
-                return a.constituencyNo - b.constituencyNo;
-            });
+            .sort((a, b) => a.constituencyNo - b.constituencyNo);
     }, [liveData, search]);
+
+    const summary = useMemo(() => {
+        return {
+            totalSeats: liveData.length,
+            alliances: new Set(liveData.map((i) => i.alliance)).size,
+            positive: liveData.filter((i) => i.sentiment === "positive").length,
+            negative: liveData.filter((i) => i.sentiment === "negative").length,
+            alerts: liveData.reduce((sum, i) => sum + Number(i.alertCount || 0), 0),
+        };
+    }, [liveData]);
 
     const styleFeature = (feature) => {
         const match = getLiveRecord(feature);
@@ -102,9 +198,9 @@ export default function TamilNaduLiveMap() {
         const isSelected = selected?.constituencyNo === acNo;
 
         return {
-            fillColor: match ? partyColors[match.party] || "#9CA3AF" : "#9CA3AF",
-            fillOpacity: isSelected ? 0.95 : 0.7,
-            color: isSelected ? "#000000" : "#111827",
+            fillColor: match ? partyColors[match.party] || "#9CA3AF" : "#CBD5E1",
+            fillOpacity: isSelected ? 0.95 : 0.75,
+            color: isSelected ? "#000000" : "#334155",
             weight: isSelected ? 3 : 1,
             opacity: 1,
         };
@@ -135,22 +231,21 @@ export default function TamilNaduLiveMap() {
                 party: "N/A",
                 mla: "N/A",
                 alliance: "N/A",
-                winningMargin: "N/A",
+                winningMargin: 0,
                 sentiment: "N/A",
                 alertCount: 0,
             };
 
         const popupHtml = `
       <div>
-        <strong>${acNo} - ${acName}</strong><br/>
+        <strong>${acNo}. ${acName}</strong><br/>
         District: ${district}<br/>
-        ${match
-                ? `Party: ${match.party}<br/>
-               MLA: ${match.mla}<br/>
-               Alliance: ${match.alliance}<br/>
-               Sentiment: ${match.sentiment}<br/>
-               Alerts: ${match.alertCount}`
-                : "No live data"
+        Party: ${selectedData.party}<br/>
+        Candidate: ${selectedData.mla}<br/>
+        Alliance: ${selectedData.alliance}<br/>
+        ${selectedYear === "2026"
+                ? `Winning Margin: Not available`
+                : `Winning Margin: ${Number(selectedData.winningMargin || 0).toLocaleString()}`
             }
       </div>
     `;
@@ -174,105 +269,147 @@ export default function TamilNaduLiveMap() {
         });
     };
 
-    const handleSidebarClick = (item) => {
-        setSelected(item);
-    };
-
     return (
         <div className="min-h-screen bg-gray-100 p-4">
-            <div className="mb-4 grid grid-cols-2 gap-3 md:grid-cols-4 xl:grid-cols-6">
-                {Object.entries(
-                    liveData.reduce((acc, item) => {
-                        acc[item.party] = (acc[item.party] || 0) + 1;
-                        return acc;
-                    }, {})
-                ).map(([party, count]) => (
-                    <div
-                        key={party}
-                        className="rounded-xl bg-white p-3 shadow-sm border"
+            <div className="mb-4 flex flex-col gap-3 xl:flex-row xl:items-center xl:justify-between">
+                <div>
+                    <h1 className="text-4xl font-bold text-slate-900">
+                        Tamil Nadu Election War Room
+                    </h1>
+                    <p className="text-slate-500">
+                        Constituency monitoring across 234 seats
+                    </p>
+                </div>
+
+                <div className="flex flex-wrap items-center gap-3">
+                    <select
+                        value={selectedYear}
+                        onChange={(e) => setSelectedYear(e.target.value)}
+                        className="rounded-xl border border-slate-300 bg-white px-4 py-2"
                     >
-                        <div className="flex items-center justify-between">
-                            <span
-                                className="inline-block h-3 w-3 rounded-full"
-                                style={{ backgroundColor: partyColors[party] || "#9CA3AF" }}
-                            />
-                            <span className="text-sm font-semibold text-gray-500">
-                                {party}
-                            </span>
-                        </div>
-                        <div className="mt-2 text-2xl font-bold text-gray-900">{count}</div>
+                        <option value="2026">2026 Assembly Projection</option>
+                        <option value="2021">2021 Assembly Election</option>
+                        <option value="2016">2016 Assembly Election</option>
+                    </select>
+
+                    {selectedYear === "2026" && (
+                        <select
+                            value={selected2026Party}
+                            onChange={(e) => setSelected2026Party(e.target.value)}
+                            className="rounded-xl border border-slate-300 bg-white px-4 py-2"
+                        >
+                            <option value="DMK">DMK View</option>
+                            <option value="ADMK">ADMK View</option>
+                            <option value="TVK">TVK View</option>
+                            <option value="NTK">NTK View</option>
+                        </select>
+                    )}
+
+                    <div className="rounded-full bg-white px-4 py-2 text-sm text-slate-600 border">
+                        {selectedYear} Data
                     </div>
-                ))}
+
+                    <div className="text-sm text-slate-500">
+                        {liveData.length} constituencies
+                    </div>
+                </div>
+            </div>
+
+            <div className="mb-4 grid grid-cols-1 gap-4 md:grid-cols-5">
+                <div className="rounded-2xl bg-white p-5 shadow-sm border">
+                    <div className="text-sm text-slate-500">TOTAL SEATS</div>
+                    <div className="mt-2 text-5xl font-bold">{summary.totalSeats}</div>
+                </div>
+
+                <div className="rounded-2xl bg-white p-5 shadow-sm border">
+                    <div className="text-sm text-slate-500">ALLIANCES</div>
+                    <div className="mt-2 text-5xl font-bold">{summary.alliances}</div>
+                </div>
+
+                <div className="rounded-2xl bg-white p-5 shadow-sm border">
+                    <div className="text-sm text-green-600">POSITIVE</div>
+                    <div className="mt-2 text-5xl font-bold">{summary.positive}</div>
+                </div>
+
+                <div className="rounded-2xl bg-white p-5 shadow-sm border">
+                    <div className="text-sm text-red-600">NEGATIVE</div>
+                    <div className="mt-2 text-5xl font-bold">{summary.negative}</div>
+                </div>
+
+                <div className="rounded-2xl bg-white p-5 shadow-sm border">
+                    <div className="text-sm text-amber-600">TOTAL ALERTS</div>
+                    <div className="mt-2 text-5xl font-bold">{summary.alerts}</div>
+                </div>
             </div>
 
             <div className="grid grid-cols-1 gap-4 xl:grid-cols-12">
                 <div className="xl:col-span-3">
                     <div className="rounded-2xl bg-white p-4 shadow-sm border h-[78vh] flex flex-col">
-                        <h2 className="text-lg font-bold text-gray-900 mb-3">
-                            Constituencies
-                        </h2>
+                        <div className="mb-3 flex items-center justify-between">
+                            <h2 className="text-xl font-semibold">CONSTITUENCIES</h2>
+                            <span className="rounded-full bg-slate-100 px-3 py-1 text-sm">
+                                {constituencyList.length}
+                            </span>
+                        </div>
 
                         <input
                             type="text"
-                            placeholder="Search by constituency or district"
+                            placeholder="Search constituency or district..."
                             value={search}
                             onChange={(e) => setSearch(e.target.value)}
-                            className="mb-3 w-full rounded-lg border border-gray-300 px-3 py-2 outline-none focus:border-blue-500"
+                            className="mb-4 w-full rounded-xl border border-slate-300 px-4 py-3 outline-none"
                         />
 
-                        <div className="mb-3 text-sm text-gray-500">
-                            Showing {constituencyList.length} of {liveData.length}
-                        </div>
+                        <div className="overflow-y-auto space-y-3">
+                            {constituencyList.length === 0 ? (
+                                <div className="py-16 text-center text-slate-500">
+                                    No data available for {selectedYear}
+                                </div>
+                            ) : (
+                                constituencyList.map((item) => {
+                                    const isSelected =
+                                        selected?.constituencyNo === item.constituencyNo;
 
-                        <div className="overflow-y-auto space-y-2 pr-1">
-                            {constituencyList.map((item) => {
-                                const isSelected =
-                                    selected?.constituencyNo === item.constituencyNo;
+                                    return (
+                                        <button
+                                            key={item.constituencyNo}
+                                            onClick={() => setSelected(item)}
+                                            className={`w-full rounded-2xl border p-4 text-left ${isSelected
+                                                    ? "border-blue-500 bg-blue-50"
+                                                    : "border-slate-200 bg-white"
+                                                }`}
+                                        >
+                                            <div className="flex items-start justify-between gap-2">
+                                                <div>
+                                                    <div className="font-semibold text-slate-900">
+                                                        {item.constituencyNo}. {item.name}
+                                                    </div>
+                                                    <div className="text-sm text-slate-500">
+                                                        {item.district}
+                                                    </div>
+                                                </div>
 
-                                return (
-                                    <button
-                                        key={item.constituencyNo}
-                                        onClick={() => handleSidebarClick(item)}
-                                        className={`w-full rounded-xl border p-3 text-left transition ${isSelected
-                                                ? "border-blue-500 bg-blue-50"
-                                                : "border-gray-200 bg-white hover:bg-gray-50"
-                                            }`}
-                                    >
-                                        <div className="flex items-start justify-between gap-2">
-                                            <div>
-                                                <div className="font-semibold text-gray-900">
-                                                    {item.constituencyNo} - {item.name}
-                                                </div>
-                                                <div className="text-sm text-gray-500">
-                                                    {item.district}
-                                                </div>
+                                                <span
+                                                    className="rounded-full px-3 py-1 text-xs font-semibold text-white"
+                                                    style={{
+                                                        backgroundColor:
+                                                            partyColors[item.party] || "#9CA3AF",
+                                                    }}
+                                                >
+                                                    {item.party}
+                                                </span>
                                             </div>
 
-                                            <span
-                                                className="rounded-full px-2 py-1 text-xs font-semibold text-white"
-                                                style={{
-                                                    backgroundColor:
-                                                        partyColors[item.party] || "#9CA3AF",
-                                                }}
-                                            >
-                                                {item.party}
-                                            </span>
-                                        </div>
-
-                                        <div className="mt-2 flex items-center justify-between text-xs text-gray-600">
-                                            <span>Sentiment: {item.sentiment}</span>
-                                            <span
-                                                className={`rounded-full px-2 py-1 font-semibold ${item.alertCount > 2
-                                                        ? "bg-red-100 text-red-700"
-                                                        : "bg-gray-100 text-gray-700"
-                                                    }`}
-                                            >
-                                                Alerts: {item.alertCount}
-                                            </span>
-                                        </div>
-                                    </button>
-                                );
-                            })}
+                                            <div className="mt-3 flex items-center justify-between text-sm">
+                                                <span className="capitalize">{item.sentiment}</span>
+                                                <span className="rounded-full bg-rose-50 px-3 py-1 text-rose-600">
+                                                    {item.alertCount} alerts
+                                                </span>
+                                            </div>
+                                        </button>
+                                    );
+                                })
+                            )}
                         </div>
                     </div>
                 </div>
@@ -292,7 +429,7 @@ export default function TamilNaduLiveMap() {
 
                                 {geoData && (
                                     <GeoJSON
-                                        key={`geo-${liveData.length}-${selected?.constituencyNo || "none"}`}
+                                        key={`geo-${selectedYear}-${selected2026Party}-${liveData.length}-${selected?.constituencyNo || "none"}`}
                                         data={geoData}
                                         style={styleFeature}
                                         onEachFeature={onEachFeature}
@@ -305,17 +442,15 @@ export default function TamilNaduLiveMap() {
 
                 <div className="xl:col-span-3">
                     <div className="rounded-2xl bg-white p-4 shadow-sm border h-[78vh]">
-                        <h2 className="text-lg font-bold text-gray-900 mb-3">
-                            Constituency Details
-                        </h2>
+                        <h2 className="mb-4 text-xl font-semibold">CONSTITUENCY DETAILS</h2>
 
                         {selected ? (
-                            <div className="space-y-3">
+                            <div className="space-y-4">
                                 <div>
-                                    <div className="text-sm text-gray-500">Constituency</div>
-                                    <div className="text-xl font-bold text-gray-900">
-                                        {selected.constituencyNo} - {selected.name}
+                                    <div className="text-sm text-slate-500">
+                                        Constituency #{selected.constituencyNo}
                                     </div>
+                                    <div className="text-4xl font-bold">{selected.name}</div>
                                 </div>
 
                                 <div className="flex items-center gap-2">
@@ -328,50 +463,52 @@ export default function TamilNaduLiveMap() {
                                     >
                                         {selected.party}
                                     </span>
-                                    <span className="rounded-full bg-gray-100 px-3 py-1 text-sm font-medium text-gray-700">
+                                    <span className="rounded-full bg-slate-100 px-3 py-1 text-sm">
                                         {selected.alliance}
                                     </span>
                                 </div>
 
-                                <div className="rounded-xl bg-gray-50 p-3">
-                                    <div className="text-sm text-gray-500">District</div>
-                                    <div className="font-semibold text-gray-900">
-                                        {selected.district}
-                                    </div>
+                                <div className="rounded-2xl bg-slate-50 p-4">
+                                    <div className="text-sm text-slate-500">District</div>
+                                    <div className="text-2xl font-semibold">{selected.district}</div>
                                 </div>
 
-                                <div className="rounded-xl bg-gray-50 p-3">
-                                    <div className="text-sm text-gray-500">MLA</div>
-                                    <div className="font-semibold text-gray-900">
-                                        {selected.mla}
+                                <div className="rounded-2xl bg-slate-50 p-4">
+                                    <div className="text-sm text-slate-500">
+                                        {selectedYear === "2026" ? "Candidate" : "MLA"}
+                                    </div>
+                                    <div className="text-2xl font-semibold">
+                                        {selected.mla || "N/A"}
                                     </div>
                                 </div>
 
                                 <div className="grid grid-cols-2 gap-3">
-                                    <div className="rounded-xl bg-gray-50 p-3">
-                                        <div className="text-sm text-gray-500">Sentiment</div>
-                                        <div className="font-semibold capitalize text-gray-900">
+                                    <div className="rounded-2xl bg-slate-50 p-4">
+                                        <div className="text-sm text-slate-500">Sentiment</div>
+                                        <div className="text-xl font-semibold capitalize">
                                             {selected.sentiment}
                                         </div>
                                     </div>
 
-                                    <div className="rounded-xl bg-gray-50 p-3">
-                                        <div className="text-sm text-gray-500">Alerts</div>
-                                        <div className="font-semibold text-gray-900">
+                                    <div className="rounded-2xl bg-slate-50 p-4">
+                                        <div className="text-sm text-slate-500">Alerts</div>
+                                        <div className="text-xl font-semibold">
                                             {selected.alertCount}
                                         </div>
                                     </div>
                                 </div>
 
-                                <div className="rounded-xl bg-gray-50 p-3">
-                                    <div className="text-sm text-gray-500">Winning Margin</div>
-                                    <div className="font-semibold text-gray-900">
-                                        {selected.winningMargin}
+                                <div className="rounded-2xl bg-slate-50 p-4">
+                                    <div className="text-sm text-slate-500">Winning Margin</div>
+                                    <div className="text-3xl font-bold">
+                                        {selectedYear === "2026"
+                                            ? "Not available"
+                                            : Number(selected.winningMargin || 0).toLocaleString()}
                                     </div>
                                 </div>
                             </div>
                         ) : (
-                            <div className="rounded-xl border border-dashed border-gray-300 p-6 text-center text-gray-500">
+                            <div className="rounded-2xl border border-dashed border-slate-300 p-6 text-center text-slate-500">
                                 Click a constituency on the map or choose one from the list.
                             </div>
                         )}
